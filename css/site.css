@@ -1,0 +1,76 @@
+/*FONT FACE*/
+@font-face {
+   font-family: raleway-boldItalic;
+   src: url("../fonts/Raleway-BoldItalic.ttf") format('truetype');
+}
+@font-face {
+   font-family: raleway-light;
+   src: url("../fonts/Raleway-Light.ttf") format('truetype');
+}
+@font-face {
+   font-family: raleway-regular;
+   src: url("../fonts/Raleway-Regular.ttf") format('truetype');
+}
+
+/*
+  header-font used for headings such as "Sheringham Carnival" and "Services"
+*/
+.header-font{
+  font-family:raleway-boldItalic;
+}
+
+/*
+  title-font used for Services titles ("Security", "Hosting"... etc).
+*/
+.title-font{
+  font-family:raleway-light;
+}
+
+/*
+  description-font used for other text if not under header/title category
+*/
+.description-font{
+  font-family:raleway-regular;
+}
+
+/*
+  Grey backing color
+*/
+.background-grey{
+  background-color:#333d47;
+}
+
+/*
+  Orange backing color
+*/
+.background-orange{
+  background-color:#ff5000;
+}
+
+/*
+  Red backing color
+*/
+.background-red{
+  background-color:#ff1500;
+}
+
+/*
+  Grey text color
+*/
+.color-grey{
+  color:#333d47;
+}
+
+/*
+  Orange text color
+*/
+.color-orange{
+  color:#ff5000;
+}
+
+/*
+  Red text color
+*/
+.color-red{
+  color:#ff1500;
+}
