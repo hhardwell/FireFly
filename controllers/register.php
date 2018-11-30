@@ -28,6 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
       $db->open();
     }
 
+    if ($_SESSION['error_message'] == ""){
     //if query successful
     $results = $db->query("INSERT IGNORE INTO accounts(username,password,email,name,surname,`rank`)
     VALUES ('".$username."','".$password."','".$email."','".$name."','".$surname."','member')");
@@ -36,6 +37,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
       $db->close();
       header("Location: ../");
     }
+  } else {
+    echo $_SESSION['error_message'];
+    exit;
+  }
 
   $db->close();
   $_SESSION['error_message'] = "\nAccount with the same username already exists.";
