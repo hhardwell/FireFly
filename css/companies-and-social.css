@@ -1,3 +1,11 @@
+/* TODO List:
+* Commenting
+* Removing uneccessary code (blanks)
+* Joining repeated code together (follow DRY - currently not DRY)
+*/
+
+
+
 /*
 
  EVENT SPONSORING COMPANIES AND SOCIAL MEDIA COMPONENT STYLESHEET
@@ -26,7 +34,6 @@
   padding:0;
   flex-basis: auto;
 }
-
 
 /*
   SPONSORING COMPANIES
@@ -248,7 +255,10 @@ FACEBOOK+TWITTER FEED
   margin:40px 0;
 }
 
-.twitter-wrapper .card{}
+.twitter-wrapper .card
+{
+  width:100%;
+}
 
 .twitter-wrapper .card .card-body{}
 
@@ -282,4 +292,167 @@ FACEBOOK+TWITTER FEED
 {
   color:#00aced;
   font-size:40px;
+}
+
+@media(max-width:768px)
+{
+  .facebook-wrapper,
+  .twitter-wrapper
+  {
+    width:75%;
+    margin:20px auto;
+  }
+
+  /* Sponsoring companies */
+  .sponsoring-companies-wrapper ul li:nth-child(even)
+  {
+    padding: 0 40px;
+    padding-left:0;
+  }
+
+  .sponsoring-companies-wrapper ul li:nth-child(odd)
+  {
+    padding:0 40px;
+    padding-right: 0;
+  }
+
+  .sponsoring-companies-wrapper ul li img
+  {
+    width:75%;
+  }
+
+  /* Facebook wrapper */
+  .facebook-wrapper .card .card-body:first-of-type,
+  .facebook-wrapper .card .card-body:last-of-type,
+  {
+    padding:20px;
+  }
+
+  .facebook-wrapper .card .card-body:first-of-type .card-title,
+  .facebook-wrapper .card .card-body:last-of-type .card-title
+  {
+    font-size:4vw;
+  }
+
+  .facebook-wrapper .card .card-body:last-of-type .card-title
+  {
+    margin-top:0;
+  }
+
+  .facebook-wrapper .card .card-body:first-of-type .card-title:last-of-type
+  {
+    font-size:3vw;
+    margin:0;
+  }
+
+  .facebook-wrapper .card .card-body:first-of-type .card-button
+  {
+    position: inherit;
+    color: black;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0;
+    margin-bottom: 4em;
+  }
+}
+
+
+@media(min-width:1100px)
+{
+/* companies and feeds */
+  .companies-and-social-wrapper
+  {
+    margin:20px auto;
+    flex-direction:row;
+  }
+
+  .sponsoring-companies-wrapper
+  .facebook-wrapper,
+  .twitter-wrapper
+  {
+    height:500px;
+    margin:0 10px;
+    padding:0 50px;
+  }
+
+  .facebook-wrapper .card,
+  .twitter-wrapper .card
+  {
+    height:inherit;
+    margin:0;
+  }
+
+/* sponsoring companies */
+  .sponsoring-companies-wrapper
+  {
+    padding-left:0;
+  }
+
+  .sponsoring-companies-wrapper ul
+  {
+    flex-direction: column;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+  }
+
+  .sponsoring-companies-wrapper ul li
+  {
+    margin:40px 0;
+  }
+
+/* facebook feed */
+  .facebook-wrapper
+  {
+    order:3;
+    margin:0;
+    padding-right:0;
+    height:500px;
+  }
+
+  .facebook-wrapper .card .card-body:first-of-type
+  {
+    padding:20px;
+  }
+
+  .facebook-wrapper .card .card-body:first-of-type .card-title:first-of-type,
+  .facebook-wrapper .card .card-body:last-of-type .card-title:last-of-type
+  {
+    font-size: 19pt;
+  }
+
+  .facebook-wrapper .card .card-body:first-of-type .card-title:last-of-type
+  {
+    margin:0;
+  }
+
+
+  .facebook-wrapper .card .card-body:first-of-type .card-button
+  {
+    padding: 20px;
+    bottom:60px;
+  }
+
+  .facebook-wrapper .card .card-body:last-of-type
+  {
+    padding:20px;
+  }
+
+
+/* twitter feed */
+  .twitter-wrapper
+  {
+
+  }
+
+  .twitter-wrapper .card .card-body .card-title
+  {
+    padding:20px;
+  }
+
+  .twitter-wrapper .card .card-body ul
+  {
+    padding: 0 20px;
+  }
 }
