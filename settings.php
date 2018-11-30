@@ -1,7 +1,9 @@
 <?php
 //ACCOUNT
-$USERNAME_MIN_CHARS = 4;
-$PASSWORD_MIN_CHARS = 6;
-$NAME_MIN_CHARS = 2;
-$SURNAME_MIN_CHARS = 2;
+class Settings{
+public $USERNAME_MIN_CHARS = 4;
+public $PASSWORD_MIN_CHARS = 6;
+public $NAME_MIN_CHARS = 2;
+public $SURNAME_MIN_CHARS = 2;
+}
 ?>
