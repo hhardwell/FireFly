@@ -1,0 +1,30 @@
+.nav-background {
+  background-color: #333d47;
+}
+
+.header {
+  background: #333d47;
+  display: flex;
+}
+
+.btn {
+  color: white;
+  background-color: #333d47;
+}
+
+.btn:hover {
+  color: #ff5000;
+}
+
+.navbar-nav {
+  padding-left: 55px;
+  padding-top: 30px;
+}
+
+.nav-item {
+  padding-right: 30px;
+}
+
+.nav li a:hover {
+  background-color: #333d47;
+}
