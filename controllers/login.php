@@ -22,10 +22,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
     if ($results->num_rows > 0){
       $_SESSION['username'] = $username;
       header("Location: ../");
+      $db->close();
       exit();
     }
   }
   $_SESSION['error_message'] = "\nUnable to retrieve account";
+  $db->close();
   header("Location: ../login.php");
 }
 ?>
