@@ -6,7 +6,7 @@
 
 <body>
 
-<div class=nav-background>
+<!-- <div class=nav-background>
   <div class="header container description-font">
     <div class="logo">
       <a href="#">
@@ -55,41 +55,22 @@
     </ul>
     </div>
   </div>
-</div>
-
-<div class="footer">
-  <div class="logo">
-    <img src="images/logo.jpg">
-  </div>
-
-  <div class="top-nav">
-  <div class="bottom-nav">
-  </div>
-</div>
-
+</div> -->
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
- <a class="navbar-brand" href="#">Navbar</a>
- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-   <span class="navbar-toggler-icon"></span>
- </button>
- <div class="collapse navbar-collapse" id="navbarNav">
-   <ul class="navbar-nav">
-     <li class="nav-item active">
-       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link" href="#">Features</a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link" href="#">Pricing</a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link disabled" href="#">Disabled</a>
-     </li>
-   </ul>
- </div>
+  <a class="navbar-brand" href="#"><img src="images/full-title_orange-white.jpg"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Features</a>
+      <a class="nav-item nav-link" href="#">Pricing</a>
+      <a class="nav-item nav-link disabled" href="#">Disabled</a>
+    </div>
+  </div>
 </nav>
 
 </body>
