@@ -6,7 +6,7 @@ class Database
   private $pass = "W%3YFgEeIJpb*3lDKwIv";
   private $db = "id8057749_scs";
 
-  private $mysqli = null;
+  public $mysqli = null;
 
   public function open()
   {
