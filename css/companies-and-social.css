@@ -4,20 +4,38 @@
 
 */
 
+/*
+  COMPANIES AND SOCIAL MEDIA
+*/
+
 /* Wrapper for companies and social media */
 .companies-and-social-wrapper
 {
   display:flex;
   flex:1;
   padding:0;
+  flex-direction: column;
 }
 
-/* Wrapper for event sponsoring companies  */
-.sponsoring-companies-wrapper
+.sponsoring-companies-wrapper,
+.facebook-wrapper,
+.twitter-wrapper
 {
   display:flex;
   flex:1;
   padding:0;
+  flex-basis: auto;
+}
+
+
+/*
+  SPONSORING COMPANIES
+*/
+
+/* Wrapper for event sponsoring companies  */
+.sponsoring-companies-wrapper
+{
+
 }
 
 /* Add styling to the company list */
@@ -28,6 +46,8 @@
   flex-wrap: wrap;
   flex-direction: row;
   list-style-type: none;
+  padding: 0;
+  margin-bottom:40px;
 }
 
 /* Add styling to the company list item */
@@ -44,11 +64,14 @@
   margin-top:0;
 }
 
+.sponsoring-companies-wrapper ul li:nth-child(odd){ padding-right:100px; }
+.sponsoring-companies-wrapper ul li:nth-child(even){ padding-left:100px; }
+
 /* Add styling to company images */
 .sponsoring-companies-wrapper ul li img
 {
   display:block;
-  max-width: 256px;
+  width:100%;
   margin:auto;
 }
 
@@ -62,6 +85,7 @@
   {
     flex-basis:0;
     margin-top:20px !important;
+    padding:0 !important;
   }
 
   .sponsoring-companies-wrapper ul li:first-of-type
@@ -73,4 +97,137 @@
   {
     max-width: 128px;
   }
+}
+
+/*
+
+  FACEBOOK FEED
+
+*/
+
+.facebook-wrapper
+{
+  margin-top:20px;
+}
+
+.facebook-wrapper .card
+{
+  box-shadow: 0px 0px 10px 1px #888888;
+  margin:auto;
+  border-radius:20px;
+  position:relative;
+}
+
+.facebook-wrapper .card img
+{
+  border-radius:20px 20px 0 0;
+  border-bottom:1px solid black;
+  max-height:256px;
+  width:100%;
+}
+
+.facebook-wrapper .card .card-body:first-of-type
+{
+  width:100%;
+  display:flex;
+  flex:1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position:absolute;
+  top:0;
+  padding:20px 40px;
+  color:white;
+  height: 255px;
+}
+
+.facebook-wrapper .card .card-body:first-of-type img,
+.facebook-wrapper .card .card-body:last-of-type img
+{
+  max-width:64px;
+  max-height:64px;
+  border:1px solid black;
+}
+
+.facebook-wrapper .card .card-body:first-of-type .card-title
+{
+  margin-left:20px;
+  margin-top:0;
+}
+
+.facebook-wrapper .card .card-body:first-of-type .card-title:last-of-type
+{
+  position: absolute;
+  top: 64px;
+  left: 105px;
+}
+
+.facebook-wrapper .card .card-body:first-of-type .card-button
+{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: black;
+    width: 100%;
+    padding: 0px 40px;
+}
+
+.facebook-wrapper .card .card-body:first-of-type .card-button .card-button-wrapper
+{
+  position:relative;
+  width:100%;
+}
+
+.facebook-wrapper .card .card-body:first-of-type .card-button .card-button-wrapper .btn:first-of-type
+{
+  background-color:white;
+  border:1px solid black;
+}
+
+.fa-facebook
+{
+  color:#3b5998;
+}
+
+.facebook-wrapper .card .card-body:first-of-type .card-button .card-button-wrapper .btn:last-of-type
+{
+  background-color:white;
+  right:0;
+  position:absolute;
+  border:1px solid black;
+}
+
+.facebook-wrapper .card .card-body img
+{
+  border-radius:0;
+  border-bottom:none;
+  max-height:256px;
+}
+
+.facebook-wrapper .card .card-body:last-of-type img
+{
+  border:0;
+  max-width: 48px;
+  max-height: 48px;
+}
+
+.facebook-wrapper .card .card-body:last-of-type
+{
+  padding:40px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.facebook-wrapper .card .card-body:last-of-type .card-title
+{
+  margin-top: -5px;
+  margin-left: 20px;
+}
+
+
+.facebook-wrapper .card .card-body:last-of-type .card-text
+{
+  margin-top:20px;
 }
