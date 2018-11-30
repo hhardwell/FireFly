@@ -46,7 +46,27 @@
     </div>
     <!-- Twitter feed -->
     <div class="container twitter-wrapper">
-
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title description-font description-button-font-size">Twitter Feed</h5>
+          <!-- TODO: Update to make Likes dynamic -->
+          <!-- TODO: Update to make twitter pull from database -->
+          <ul>
+            <li>
+              <i class="fab fa-twitter"></i>
+              <p class="description-font">When you decide to get in the festival spirit and take part in a spinning session! #bestival2018 #spiinbox… <span>1064 likes</span></p>
+            </li>
+            <li>
+              <i class="fab fa-twitter"></i>
+              <p class="description-font">When you decide to get in the festival spirit and take part in a spinning session! #bestival2018 #spiinbox… <span>1064 likes</span></p>
+            </li>
+            <li>
+              <i class="fab fa-twitter"></i>
+              <p class="description-font">When you decide to get in the festival spirit and take part in a spinning session! #bestival2018 #spiinbox… <span>1064 likes</span></p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </body>
