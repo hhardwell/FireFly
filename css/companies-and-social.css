@@ -100,6 +100,19 @@
 }
 
 /*
+FACEBOOK+TWITTER FEED
+*/
+
+.facebook-wrapper .card,
+.twitter-wrapper .card
+{
+  box-shadow: 0px 0px 10px 1px #888888;
+  margin:auto;
+  border-radius:20px;
+  position:relative;
+}
+
+/*
 
   FACEBOOK FEED
 
@@ -108,14 +121,6 @@
 .facebook-wrapper
 {
   margin-top:20px;
-}
-
-.facebook-wrapper .card
-{
-  box-shadow: 0px 0px 10px 1px #888888;
-  margin:auto;
-  border-radius:20px;
-  position:relative;
 }
 
 .facebook-wrapper .card img
@@ -230,4 +235,51 @@
 .facebook-wrapper .card .card-body:last-of-type .card-text
 {
   margin-top:20px;
+}
+
+/*
+
+  TWITTER FEED
+
+*/
+
+.twitter-wrapper
+{
+  margin:40px 0;
+}
+
+.twitter-wrapper .card{}
+
+.twitter-wrapper .card .card-body{}
+
+.twitter-wrapper .card .card-body .card-title
+{
+  padding: 20px 40px;
+}
+
+.twitter-wrapper .card .card-body ul
+{
+  list-style-type: none;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.twitter-wrapper .card .card-body ul li
+{
+  display:flex;
+}
+
+.twitter-wrapper .card .card-body ul li p
+{
+  display:flex;
+  flex-direction: column;
+  margin-left:10px;
+}
+
+.fa-twitter
+{
+  color:#00aced;
+  font-size:40px;
 }
