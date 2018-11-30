@@ -1,7 +1,19 @@
 
+.logo-footer img {
+  height: 100px;
+}
 
-.nav-background {
+
+.footer-background {
   background-color: #333d47;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: row;
 }
 
 .btn {
@@ -13,9 +25,19 @@
   padding-left: 55px;
 }
 
-.nav-item {
-  padding-right: 30px!important;
+.footer-nav-item {
   color: white;
+  font-size: small;
+}
+
+.copyright-info {
+  width: 40%;
+  color: white;
+}
+
+.seperator {
+  color: white;
+  padding-top: 6px;
 }
 
 .nav-link {
@@ -31,22 +53,7 @@
   color: #ff5000!important;
 }
 
-.navbar-icon {
-  width: 50px;
-}
 
 .nav li a:hover {
   background-color: #333d47;
-}
-
-@media (max-width: 991px) {
-  .copyright-info {
-    width: 80%!important;
-  }
-
-  @media (max-width: 576px) {
-    .copyright-info {
-      width: 80%!important;
-    }
-
 }
