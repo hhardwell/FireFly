@@ -18,6 +18,7 @@
       <img class="navbar-icon" src="images/header-menu-icon.png">
     </button>
 
+
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
