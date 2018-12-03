@@ -27,7 +27,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
     }
   }
   $_SESSION['error_message'] = "\nUnable to retrieve account";
-  $db->close();
-  header("Location: ../login.php");
+  header("Location: ../");
 }
 ?>
