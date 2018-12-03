@@ -7,3 +7,4 @@
     </p>
     <img class=img-fluid src="images/TextLogo-Transparent.png">
   </div>
+</div>
