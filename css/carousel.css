@@ -1,0 +1,248 @@
+/*  Backing image */
+.image-container::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to top right, black, 30%, rgba(0,0,0,0));
+  opacity: 0.8;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Carousel controls (dots) */
+.slick-dots {
+  bottom: 7px;
+  color: white;
+}
+
+.slick-dots li {
+  margin: 0 2px;
+}
+
+.slick-dots li button::before {
+  color: white;
+  opacity: 1;
+  font-size: 12px;
+}
+
+.slick-dots li button::after {
+  font-family: 'slick';
+  font-size: 8px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .1;
+  color: black;
+}
+
+.slick-dots li.slick-active button::before {
+  color: red;
+  opacity: 1;
+}
+
+/* Text content */
+.carousel-content {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  z-index: 10;
+}
+
+/* 'Events' Header */
+.carousel-header {
+  flex: auto;
+  transform: skewX(-10deg);
+}
+
+.carousel-header-back {
+  display: inline-block;
+  background-color: red;
+  box-shadow: inset 0 0 30px 1px rgba(0, 0, 0, .3);
+  margin-top: 2em;
+}
+
+.carousel-header h2 {
+  padding: 0.4em 1em;
+  font-size: 1.25em;
+  margin: 0;
+  transform: skewX(10deg);
+  font-weight: bold;
+}
+
+/* description and title */
+.carousel-body {
+  margin-left: 1em;
+  margin-bottom: 1.5em;
+}
+
+/* description paragraph */
+.carousel-paragraph {
+  display: none;
+}
+
+/* title */
+.carousel-footer {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
+/* Height of carousel */
+.carousel,
+.slick-list,
+.slick-track,
+.image-container {
+  max-height: 250px;
+}
+
+@media(min-width:768px) {
+  /* diagonal effect */
+  .image-container {
+    transform: skewX(-10deg);
+    overflow: hidden;
+    margin: 10px;
+    height: 100%;
+  }
+
+  .carousel-body,
+  .carousel-header h2,
+  .image-container img {
+    transform: skewX(10deg);
+  }
+
+  /* Backing image */
+  .image-container{
+    width: 500px;
+  }
+
+  .image-container img {
+    min-width: 562px;
+    margin-left: -31px;
+  }
+
+  /* Carousel controls (dots) */
+    .slick-dots {
+      margin-left: -31px
+    }
+
+    .slick-dots li {
+      margin: 0 4px;
+    }
+
+    .slick-dots li button::before {
+      font-size: 17px;
+    }
+
+    .slick-dots li button::after {
+      font-size: 13px;
+    }
+
+  /* Text content */
+  .carousel-content {
+    font-size: 1.25rem;
+  }
+
+  /* 'Events' header */
+  .carousel-header {
+    transform: unset;
+  }
+
+  .carousel-header h2 {
+    padding: 0.4em 1em;
+    margin: 0;
+  }
+
+  /* description and title */
+  .carousel-body {
+    margin-bottom: 2em;
+  }
+
+  /* Height of carousel */
+  .carousel,
+  .slick-list,
+  .slick-track,
+  .image-container {
+    max-height: 350px;
+  }
+}
+
+@media(min-width:1100px) {
+  /* Backing image */
+  .image-container{
+    width: 700px;
+  }
+
+  .image-container img {
+    min-width: 780px;
+    margin-left: -40px;
+  }
+
+  /* Carousel controls (arrows) */
+  .slick-prev {
+    left: unset;
+    right: calc(50% + 380px);
+  }
+
+  .slick-next {
+    right: unset;
+    left: calc(50% + 380px);
+  }
+
+  .slick-prev,
+  .slick-next {
+    z-index: 100;
+    height: 60px;
+    width: 60px;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 60px;
+    color: red;
+    opacity: 1;
+  }
+
+  /* 'Events' header */
+  .carousel-header h2 {
+    font-size: 1.5em;
+  }
+
+  /* description paragraph */
+  .carousel-paragraph {
+    font-size: 14pt;
+    width: 80%;
+    flex: none;
+    display: block;
+    font-weight: bold;
+  }
+
+  /* Height of carousel */
+  .carousel,
+  .slick-list,
+  .slick-track,
+  .image-container {
+    max-height: 450px;
+  }
+}
