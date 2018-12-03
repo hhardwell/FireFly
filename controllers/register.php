@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
 
   $db->close();
   $_SESSION['error_message'] = "\nAccount with the same username already exists.";
-  header("Location: ../register.php");
+  header("Location: ../");
 }
 
 /*

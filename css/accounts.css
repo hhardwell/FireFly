@@ -1,0 +1,53 @@
+/*
+
+  STYLING FOR LOGIN/REGISTRATION
+
+*/
+
+.login-form,
+.register-form
+{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 0;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.login-form p,
+.register-form p
+{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.login-form input,
+.register-form input
+{
+  padding:10px;
+  border-radius:5px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.login-form input,
+.login-form button,
+.register-form input,
+.register-form button
+{
+  margin:10px;
+}
+
+.login-form button,
+.register-form button
+{
+  border:none;
+  border-radius:5px;
+  color:white;
+  text-transform: uppercase;
+  padding:10px 30px;
+}

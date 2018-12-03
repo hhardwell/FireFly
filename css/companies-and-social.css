@@ -5,7 +5,6 @@
 */
 
 
-
 /*
 
  EVENT SPONSORING COMPANIES AND SOCIAL MEDIA COMPONENT STYLESHEET
@@ -38,12 +37,6 @@
 /*
   SPONSORING COMPANIES
 */
-
-/* Wrapper for event sponsoring companies  */
-.sponsoring-companies-wrapper
-{
-
-}
 
 /* Add styling to the company list */
 .sponsoring-companies-wrapper ul
@@ -82,35 +75,10 @@
   margin:auto;
 }
 
-@media(min-width:1100px){
-  .sponsoring-companies-wrapper ul
-  {
-    flex-direction: column;
-  }
-
-  .sponsoring-companies-wrapper ul li
-  {
-    flex-basis:0;
-    margin-top:20px !important;
-    padding:0 !important;
-  }
-
-  .sponsoring-companies-wrapper ul li:first-of-type
-  {
-    margin-top:0 !important;
-  }
-
-  .sponsoring-companies-wrapper ul li img
-  {
-    max-width: 128px;
-  }
-}
-
 /*
-FACEBOOK+TWITTER FEED
+TWITTER FEED
 */
 
-.facebook-wrapper .card,
 .twitter-wrapper .card
 {
   box-shadow: 0px 0px 10px 1px #888888;
@@ -120,134 +88,7 @@ FACEBOOK+TWITTER FEED
 }
 
 /*
-
-  FACEBOOK FEED
-
-*/
-
-.facebook-wrapper
-{
-  margin-top:20px;
-}
-
-.facebook-wrapper .card img
-{
-  border-radius:20px 20px 0 0;
-  border-bottom:1px solid black;
-  max-height:256px;
-  width:100%;
-}
-
-.facebook-wrapper .card .card-body:first-of-type
-{
-  width:100%;
-  display:flex;
-  flex:1;
-  flex-direction: row;
-  flex-wrap: wrap;
-  position:absolute;
-  top:0;
-  padding:20px 40px;
-  color:white;
-  height: 255px;
-}
-
-.facebook-wrapper .card .card-body:first-of-type img,
-.facebook-wrapper .card .card-body:last-of-type img
-{
-  max-width:64px;
-  max-height:64px;
-  border:1px solid black;
-}
-
-.facebook-wrapper .card .card-body:first-of-type .card-title
-{
-  margin-left:20px;
-  margin-top:0;
-}
-
-.facebook-wrapper .card .card-body:first-of-type .card-title:last-of-type
-{
-  position: absolute;
-  top: 64px;
-  left: 105px;
-}
-
-.facebook-wrapper .card .card-body:first-of-type .card-button
-{
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    color: black;
-    width: 100%;
-    padding: 0px 40px;
-}
-
-.facebook-wrapper .card .card-body:first-of-type .card-button .card-button-wrapper
-{
-  position:relative;
-  width:100%;
-}
-
-.facebook-wrapper .card .card-body:first-of-type .card-button .card-button-wrapper .btn:first-of-type
-{
-  background-color:white;
-  border:1px solid black;
-}
-
-.fa-facebook
-{
-  color:#3b5998;
-}
-
-.facebook-wrapper .card .card-body:first-of-type .card-button .card-button-wrapper .btn:last-of-type
-{
-  background-color:white;
-  right:0;
-  position:absolute;
-  border:1px solid black;
-}
-
-.facebook-wrapper .card .card-body img
-{
-  border-radius:0;
-  border-bottom:none;
-  max-height:256px;
-}
-
-.facebook-wrapper .card .card-body:last-of-type img
-{
-  border:0;
-  max-width: 48px;
-  max-height: 48px;
-}
-
-.facebook-wrapper .card .card-body:last-of-type
-{
-  padding:40px;
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
-.facebook-wrapper .card .card-body:last-of-type .card-title
-{
-  margin-top: -5px;
-  margin-left: 20px;
-}
-
-
-.facebook-wrapper .card .card-body:last-of-type .card-text
-{
-  margin-top:20px;
-}
-
-/*
-
   TWITTER FEED
-
 */
 
 .twitter-wrapper
@@ -258,6 +99,7 @@ FACEBOOK+TWITTER FEED
 .twitter-wrapper .card
 {
   width:100%;
+  overflow: overlay;
 }
 
 .twitter-wrapper .card .card-body{}
@@ -265,6 +107,7 @@ FACEBOOK+TWITTER FEED
 .twitter-wrapper .card .card-body .card-title
 {
   padding: 20px 40px;
+  overflow:overlay;
 }
 
 .twitter-wrapper .card .card-body ul
@@ -294,10 +137,113 @@ FACEBOOK+TWITTER FEED
   font-size:40px;
 }
 
+/*
+  FACEBOOK FEED
+*/
+
+.fa-facebook
+{
+  color:#3b5998;
+}
+
+.facebook-wrapper .facebook-logo-img
+{
+  max-width:48px;
+  max-height:48px;
+}
+
+.facebook-wrapper
+{
+  display: flex;
+  flex: 1;
+  padding: 0;
+  flex-basis: auto;
+  margin:20px auto;
+  padding:0;
+}
+
+.facebook-wrapper .card
+{
+  width:100%;
+  box-shadow: 0px 0px 10px 1px #888888;
+  margin: 20px auto;
+  border-radius: 20px;
+  position: relative;
+}
+
+.facebook-wrapper .card-button .btn
+{
+  box-shadow: 0px 0px 10px 1px #888888;
+  background-color: white;
+  color:black;
+}
+
+.facebook-wrapper .card-button .btn:last-of-type
+{
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+.facebook-wrapper .card-img-top
+{
+  z-index:1;
+  height: 14em;
+  position:absolute;
+  border-radius: 20px 20px 0 0;
+}
+
+.facebook-wrapper .card-body:first-of-type
+{
+  z-index:2;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1100px){
+  .sponsoring-companies-wrapper ul
+  {
+    flex-direction: column;
+  }
+
+  .sponsoring-companies-wrapper ul li
+  {
+    flex-basis:0;
+    margin-top:20px !important;
+    padding:0 !important;
+  }
+
+  .sponsoring-companies-wrapper ul li:first-of-type
+  {
+    margin-top:0 !important;
+  }
+
+  .sponsoring-companies-wrapper ul li img
+  {
+    max-width: 128px;
+  }
+
+  .facebook-wrapper
+  {
+    margin:20px;
+  }
+}
+
 @media(max-width:768px)
 {
-  .facebook-wrapper,
-  .twitter-wrapper
+  .twitter-wrapper,
+  .facebook-wrapper
   {
     width:75%;
     margin:20px auto;
@@ -320,42 +266,7 @@ FACEBOOK+TWITTER FEED
   {
     width:75%;
   }
-
-  /* Facebook wrapper */
-  .facebook-wrapper .card .card-body:first-of-type,
-  .facebook-wrapper .card .card-body:last-of-type,
-  {
-    padding:20px;
-  }
-
-  .facebook-wrapper .card .card-body:first-of-type .card-title,
-  .facebook-wrapper .card .card-body:last-of-type .card-title
-  {
-    font-size:4vw;
-  }
-
-  .facebook-wrapper .card .card-body:last-of-type .card-title
-  {
-    margin-top:0;
-  }
-
-  .facebook-wrapper .card .card-body:first-of-type .card-title:last-of-type
-  {
-    font-size:3vw;
-    margin:0;
-  }
-
-  .facebook-wrapper .card .card-body:first-of-type .card-button
-  {
-    position: inherit;
-    color: black;
-    width: 100%;
-    padding: 20px;
-    padding-top: 0;
-    margin-bottom: 4em;
-  }
 }
-
 
 @media(min-width:1100px)
 {
@@ -367,7 +278,6 @@ FACEBOOK+TWITTER FEED
   }
 
   .sponsoring-companies-wrapper
-  .facebook-wrapper,
   .twitter-wrapper
   {
     height:500px;
@@ -375,7 +285,6 @@ FACEBOOK+TWITTER FEED
     padding:0 50px;
   }
 
-  .facebook-wrapper .card,
   .twitter-wrapper .card
   {
     height:inherit;
@@ -402,50 +311,8 @@ FACEBOOK+TWITTER FEED
     margin:40px 0;
   }
 
-/* facebook feed */
-  .facebook-wrapper
-  {
-    order:3;
-    margin:0;
-    padding-right:0;
-    height:500px;
-  }
-
-  .facebook-wrapper .card .card-body:first-of-type
-  {
-    padding:20px;
-  }
-
-  .facebook-wrapper .card .card-body:first-of-type .card-title:first-of-type,
-  .facebook-wrapper .card .card-body:last-of-type .card-title:last-of-type
-  {
-    font-size: 19pt;
-  }
-
-  .facebook-wrapper .card .card-body:first-of-type .card-title:last-of-type
-  {
-    margin:0;
-  }
-
-
-  .facebook-wrapper .card .card-body:first-of-type .card-button
-  {
-    padding: 20px;
-    bottom:60px;
-  }
-
-  .facebook-wrapper .card .card-body:last-of-type
-  {
-    padding:20px;
-  }
-
 
 /* twitter feed */
-  .twitter-wrapper
-  {
-
-  }
-
   .twitter-wrapper .card .card-body .card-title
   {
     padding:20px;
