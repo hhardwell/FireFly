@@ -6,11 +6,16 @@
 
 <body>
 
-<div class="nav-background title-font">
+<div class="nav-background title-font ">
   <nav class=" container navbar navbar-expand-lg navbar-light">
-    <div class="logo">
+    <div class="logo d-none d-md-block">
       <a href="#">
         <img class="img-fluid" src="images/full-title_orange-white.jpg">
+      </a>
+    </div>
+    <div class="logo logo-small d-block d-md-none">
+      <a href="#">
+        <img class="img-fluid" src="images/logo.jpg">
       </a>
     </div>
 

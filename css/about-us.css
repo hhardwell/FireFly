@@ -1,19 +1,70 @@
 
 
+
+
 .main-container {
   box-shadow: 0px 0px 10px 1px #888888;
   margin:auto;
-  margin-right: 0;
   border-radius:20px;
   position:relative;
   margin-top: 50px;
   padding: 20px 20px 20px 20px;
+
+  background-color: #333d47;
+  color: white;
 }
+
+/* CSS for about-us-home */
+
+.about-us-home-container{
+  height: 500px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: flex;
+}
+
+.about-us-home-container .transparent-logo {
+  position: absolute;
+  opacity: 0.25;
+  height: 400px;
+  bottom: -100;
+  left: -50;
+}
+
+.about-us-home-container .intro-container p {
+  position: relative;
+}
+
+.read-more {
+  position: relative;
+  background-color: #ff5000;
+  border:none;
+  border-radius:5px;
+  color:white;
+  text-transform: uppercase;
+  padding:10px 30px;
+}
+
+.staff-images {
+  padding: 0px 40px 0px 40px;
+}
+
+.staff-images img {
+  height: 150px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+
+/* end for about-us-home */
 
 .staff-container{
   width: 20%;
   margin-left: 50px;
   margin-right: auto;
+  background-color: white;
+  color: black;
+
 }
 
 
@@ -70,3 +121,24 @@
       width: 50%;
       height: 100%;
     }
+
+
+/* Media query that converts the about us section into the mobile version */
+    @media (max-width: 767px) {
+      .staff-images{
+        display: none;
+      }
+      .about-us-home-container {
+        box-shadow: none;
+        border-radius: 0px;
+        height: 340px;
+        margin: 0px;
+        float: left;
+      }
+      .intro-container h1 {
+        position: relative;
+      }
+      .intro-container p {
+        height: 170px;
+        overflow: hidden;
+      }
