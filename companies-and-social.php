@@ -2,6 +2,10 @@
 
   EVENT SPONSORING COMPANIES AND SOCIAL MEDIA COMPONENT
 
+
+<?php // TODO: FIXME IMPORTANT Facebook feed under 1100px misaligns elements badly ?>
+
+
  -->
 
 
@@ -25,7 +29,7 @@
       <div class="card">
         <img class="card-img-top" src="images/facebook/facebook-background.png" alt="Card image cap">
         <div class="card-body">
-          <img src="images/logo.jpg" alt="Fire Fly Events"/>
+          <img class="facebook-logo-img" src="images/logo.jpg" alt="Fire Fly Events"/>
           <h5 class="card-title description-font description-button-font-size">FireFly Events</h5> <!-- TODO: Update the font size -->
           <h5 class="card-title description-font footer-navigation-font-size">1064 Likes</h5> <!-- TODO:
                                                                                                 Update like counter
@@ -38,7 +42,7 @@
           </div>
         </div>
         <div class="card-body">
-          <img src="images/logo.jpg" alt="Fire Fly Events"/>
+          <img class="facebook-logo-img" src="images/logo.jpg" alt="Fire Fly Events"/>
           <h5 class="card-title description-font description-button-font-size">FireFly Events</h5>
           <p class="card-text description-font">All done for another year! Time to put all the pyro, lasers, led, staging, trakway, toilets, fencing and much more back in it's box! #creamfields2018 #eventmanagement #aplevent</p>
         </div>
