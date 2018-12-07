@@ -1,7 +1,3 @@
-.events-container .card-1 h3 {
-  width: min-content
-}
-
 .title-center {
   display: flex;
   justify-content: center;
@@ -118,6 +114,10 @@
 @media (min-width: 1200px) {
   .outer-margin {
     max-width: 1200px;
+  }
+
+  .events-container .card-1 h3 {
+    width: min-content
   }
 
   .event-card {
