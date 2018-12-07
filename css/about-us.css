@@ -125,6 +125,7 @@
 
     .container-flex {
       display: block;
+
     }
     .staff-container{
       max-width: 960px!important;
@@ -143,9 +144,8 @@
       .about-us-home-container {
         box-shadow: none;
         border-radius: 0px;
-        height: 340px;
+        height: 450px;
         margin: 0px;
-        float: left;
       }
       .intro-container h1 {
         position: relative;
@@ -153,4 +153,12 @@
       .intro-container p {
         height: 170px;
         overflow: hidden;
+      }
+      .container-flex {
+        display: block;
+        margin: 0;
+        padding-right: 0;
+        padding-left: 0;
+        max-width: 750px;
+
       }
