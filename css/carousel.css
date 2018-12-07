@@ -71,19 +71,22 @@
 }
 
 /* 'Events' Header */
-.carousel-header {
+.carousel-header,
+.title-back {
   flex: auto;
   transform: skewX(-10deg);
 }
 
-.carousel-header-back {
+.carousel-header-back,
+.title-back {
   display: inline-block;
   background-color: red;
   box-shadow: inset 0 0 30px 1px rgba(0, 0, 0, .3);
   margin-top: 2em;
 }
 
-.carousel-header h2 {
+.carousel-header h2,
+.title-back h3 {
   padding: 0.4em 1em;
   font-size: 1.25em;
   margin: 0;
