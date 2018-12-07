@@ -11,7 +11,13 @@
     <link rel="stylesheet" type="text/css" href="css/site.css"> <!-- includes the preset site font sizes, font styles and colours -->
   </head>
   <body>
+    <?php include"header.php";?>
     <?php include"carousel.php";?>
+    <?php include"about-us-home.php";?>
+    <?php include"testimonials.php";?>
+    <?php include"latest-news-home.php";?>
+    <?php include"companies-and-social.php";?>
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> <!-- Slick js plugin -->
     <script type='text/javascript' src='js/carousel.js'></script>
   </body>
