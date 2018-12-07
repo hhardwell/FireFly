@@ -18,7 +18,6 @@
         </div>
     </div>
   </div>
-</div>
 
   <div class="container main-container staff-container">
     <h2>FireFly Members</h2>
@@ -34,9 +33,9 @@
       <img class="img-fluid" src="images/staff-images/matt-hir.jpg">
       <p>Name and Role </p>
     </div>
-  </div>
 
-  <div class="staff-image-container">
+
+
     <div class="staff">
       <img class="img-fluid" src="images/staff-images/alex-chenery-howes.jpg">
       <p>Name and Role </p>
@@ -49,7 +48,8 @@
     </div>
   </div>
 
-  <div class="staff-image-container">
+
+<div class="staff-image-container">
     <div class="staff">
       <img class="img-fluid"src="images/staff-images/andrew-hall.jpg">
       <p>Name and Role </p>
@@ -59,9 +59,9 @@
       <img class="img-fluid"src="images/staff-images/andrew-halls.jpg">
       <p>Name and Role </p>
     </div>
-  </div>
 
-  <div class="staff-image-container">
+
+
     <div class="staff">
       <img class="img-fluid"src="images/staff-images/kayleigh-hall-swag.jpg">
       <p>Name and Role </p>

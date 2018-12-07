@@ -6,7 +6,7 @@
 
 .footer-background {
   background-color: #333d47;
-  position: absolute;
+  position: static;
   bottom: 0;
   width: 100%;
 }

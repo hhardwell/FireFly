@@ -1,20 +1,27 @@
 
 
 .testi-container {
-  background-color: white;
-  color: black;
+  width: 47%;
+}
+
+.container-format {
+  background-color: white!important;
+  color: black!important;
   display: flex;
+
 }
 
 .testi-container p {
-  padding-top: 30px;
-  padding-left: 35px;
-  width: 90%;
+
 
 }
 
 .testi-button {
-  position: absolute;
-  right: 30px;
   margin-top: 20px;
 }
+
+
+  @media (max-width: 991px) {
+    .testi-container {
+      width: 100%;
+    }

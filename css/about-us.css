@@ -4,10 +4,9 @@
 
 .main-container {
   box-shadow: 0px 0px 10px 1px #888888;
-  margin:auto;
   border-radius:20px;
   position:relative;
-  margin-top: 50px;
+  margin-top: 25px;
   padding: 20px 20px 20px 20px;
 
   background-color: #333d47;
@@ -17,10 +16,13 @@
 /* CSS for about-us-home */
 
 .about-us-home-container{
+  width: 50%;
   height: 500px;
+  margin-right: 25px;
   margin-bottom: 20px;
   overflow: hidden;
   display: flex;
+  position: relative;
 }
 
 .about-us-home-container .transparent-logo {
@@ -33,6 +35,9 @@
 
 .about-us-home-container .intro-container p {
   position: relative;
+  height: 290px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .read-more {
@@ -47,6 +52,7 @@
 
 .staff-images {
   padding: 0px 40px 0px 40px;
+  z-index: 1;
 }
 
 .staff-images img {
@@ -94,11 +100,9 @@
 
 /* Media Querys that changes the position of the staff container under 1200px and 991px width. */
 @media (max-width: 1200px) {
-  .container-flex {
-    display: block;
-  }
+
   .main-container {
-    margin-right: auto;
+
   }
   .staff-container {
     width: auto;
@@ -109,18 +113,26 @@
   }
   .staff {
     width: auto;
-    padding-right: 27px;
+    padding-right: 18px;
   }
   .staff-image-container {
+    display: block;
     float: left;
   }
 
 
   @media (max-width: 991px) {
-    .staff-container{
-      width: 50%;
-      height: 100%;
+
+    .container-flex {
+      display: block;
     }
+    .staff-container{
+      max-width: 960px!important;
+    }
+    .about-us-home-container {
+      width:100%;
+    }
+
 
 
 /* Media query that converts the about us section into the mobile version */
