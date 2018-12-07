@@ -26,8 +26,8 @@
 </div>
 
 <div class="testi-container">
-  <div class="main-container container-format">
-    <div class="testi-logo ">
+  <div class="main-container container-format-home">
+    <div class="testi-logo-home ">
       <img class= "img-fluid" src="images/companies/festival-republic.png">
     </div>
 
@@ -35,17 +35,17 @@
 
   </div>
 
-  <div class="main-container container-format">
+  <div class="main-container container-format-home">
 
       <p>"FireFly Events did a great job setting up and helping us one of our first venues. We will definitely be using them again."</p>
 
-    <div class="testi-logo ">
+    <div class="testi-logo-home ">
       <img class= "img-fluid" src="images/companies/capital-management.png">
     </div>
   </div>
 
-  <div class="main-container container-format">
-    <div class="testi-logo ">
+  <div class="main-container container-format-home">
+    <div class="testi-logo-home ">
       <img class= "img-fluid" src="images/companies/summer-camp.png">
     </div>
 

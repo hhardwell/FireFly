@@ -1,18 +1,7 @@
 
-
+/* THE CONTAINERS USED ON THE HOME PAGE INSUDE THE 'about-us-home.php' file */
 .testi-container {
   width: 47%;
-}
-
-.container-format {
-  background-color: white!important;
-  color: black!important;
-  display: flex;
-
-}
-
-.testi-container p {
-
 
 }
 
@@ -20,7 +9,87 @@
   margin-top: 20px;
 }
 
+.testi-header {
+  padding-top: 20px;
+}
 
+.testi-main-container {
+  box-shadow: 0px 0px 10px 1px #888888;
+  border-radius:20px;
+  position:relative;
+  margin-top: 25px;
+  padding: 20px 20px 20px 20px;
+
+  background-color: #333d47;
+  color: white;
+}
+
+
+/* FORMAT FOR WHITE SHADED BOX */
+.container-format {
+  box-shadow: 0px 0px 10px 1px #888888;
+  border-radius:10px;
+  position:relative;
+  padding: 20px 20px 20px 20px;
+  background-color: white!important;
+  color: black!important;
+  display: flex;
+  transform: rotate(45deg);
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+
+}
+
+/* Diamond container used on the testimonal page */
+.logo-diamond {
+  transform: rotate(-45deg);
+  height: fit-content;
+  align-self: center;
+    transition: 0.5s ease-in-out;
+}
+
+.testi-logo {
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    left: -100px;
+}
+
+
+/* Dark container used on the individual testimonal page */
+.testi-page-container {
+  height: 240px;
+  margin-bottom: 60px;
+  width: 80%;
+  position: relative;
+  left: 100px;
+
+}
+
+/* The Quote Text */
+.testi-page-container h4 {
+  margin-left: 90px;
+  text-align: center;
+}
+.testi-page-container h3 {
+    margin-left: 90px;
+  text-align: center;
+}
+
+/* CSS HOVER TRANSITIONS ON THE LOGOS */
+.testi-logo:hover {
+  transform: scale(1.25);
+  transition: 0.5s ease-in-out;
+}
+
+.testi-logo:hover > .logo-diamond {
+  transform: rotate(0deg);
+    transition: 0.5s ease-in-out;
+}
+
+
+
+/* ------ MEDIA QUERIES ------- */
   @media (max-width: 991px) {
     .testi-container {
       width: 100%;

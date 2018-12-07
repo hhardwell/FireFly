@@ -1,38 +1,38 @@
-<!--
+
 <head>
   <link rel="stylesheet" type="text/css" href="css/testimonials.css">
   <link rel="stylesheet" type="text/css" href="css/about-us.css">
 
 </head>
 
-<div class="container testi-container">
-  <div class="main-container container-format">
-    <div class="testi-logo ">
-      <img class= "img-fluid" src="images/companies/festival-republic.png">
+<div class="container">
+      <h1 class="testi-header">Testimonials:</h1>
+  <div class="testi-main-container testi-page-container">
+    <div class="testi-logo container-format">
+      <img class= "img-fluid logo-diamond" src="images/companies/festival-republic.png">
     </div>
 
-      <p>"FireFly Events did a great job setting up and helping us one of our first venues. We will definitely be using them again."</p>
-
+      <h4> <br>"FireFly Events did a great job setting up and helping us one of our first venues. We will definitely be using them again."</h4>
+      <h3> - William Kiln (Managing Director) </h3>
   </div>
 
-  <div class="main-container container-format">
-
-      <p>"FireFly Events did a great job setting up and helping us one of our first venues. We will definitely be using them again."</p>
-
-    <div class="testi-logo ">
-      <img class= "img-fluid" src="images/companies/capital-management.png">
-    </div>
-  </div>
-
-  <div class="main-container container-format">
-    <div class="testi-logo ">
-      <img class= "img-fluid" src="images/companies/summer-camp.png">
+  <div class="testi-main-container testi-page-container">
+    <div class="testi-logo container-format">
+      <img class= "img-fluid logo-diamond" src="images/companies/capital-management.png">
     </div>
 
-      <p>"FireFly Events did a great job setting up and helping us one of our first venues. We will definitely be using them again."</p>
-
+    <h4> <br> "FireFly Events did a great job setting up and helping us one of our first venues. We will definitely be using them again."</h4>
+    <h3> - William Kiln (Managing Director) </h3>
   </div>
 
-  <button class="read-more testi-button container-format"> Read More... </button>
+  <div class="testi-main-container testi-page-container">
+    <div class="testi-logo container-format">
+      <img class= "img-fluid logo-diamond" src="images/companies/summer-camp.png">
+    </div>
 
-</div> -->
+      <h4> <br> "FireFly Events did a great job setting up and helping us one of our first venues. We will definitely be using them again."</h4>
+      <h3> - William Kiln (Managing Director) </h3>
+  </div>
+
+
+</div>
