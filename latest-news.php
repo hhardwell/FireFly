@@ -3,7 +3,7 @@
 </head>
 
 <body>
-  <div class='news-container news-home-container'>
+  <div class='news-page-container news-container'>
     <div class='inner-news-container'>
       <h2 class='header-font'>Latest News</h2>
       <div class='card-container'>
@@ -15,11 +15,6 @@
               'Helm' which involved creating a new hosting system that could possibly
               be adopted by countless other festival service providers.
             </p>
-            <div>
-              <a href='#' class='read-more news-button'>
-                Read More &hellip;
-              </a>
-            </div>
           </div>
           <div class='news-card'>
             <h3 class='title-font'>News Title 2</h3>
@@ -28,11 +23,6 @@
               Nam molestie ex vel tempor sagittis. Morbi et felis a felis tempor accumsan at consectetur nulla.
               Donec vel orci ut nibh congue fringilla. Fusce vel luctus eros.
             </p>
-            <div>
-              <a href='#' class='read-more news-button'>
-                Read More &hellip;
-              </a>
-            </div>
           </div>
           <div class='news-card'>
             <h3 class='title-font'>News Title 3</h3>
@@ -41,11 +31,6 @@
               Nam molestie ex vel tempor sagittis. Morbi et felis a felis tempor accumsan at consectetur nulla.
               Donec vel orci ut nibh congue fringilla. Fusce vel luctus eros.
             </p>
-            <div>
-              <a href='#' class='read-more news-button'>
-                Read More &hellip;
-              </a>
-            </div>
           </div>
         </div>
       </div>
