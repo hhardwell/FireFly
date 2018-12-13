@@ -33,9 +33,9 @@
       <img class="img-fluid" src="images/staff-images/matt-hir.jpg">
       <p>Name and Role </p>
     </div>
+  </div>
 
-
-
+<div class="staff-image-container">
     <div class="staff">
       <img class="img-fluid" src="images/staff-images/alex-chenery-howes.jpg">
       <p>Name and Role </p>
@@ -48,7 +48,6 @@
     </div>
   </div>
 
-
 <div class="staff-image-container">
     <div class="staff">
       <img class="img-fluid"src="images/staff-images/andrew-hall.jpg">
@@ -59,18 +58,9 @@
       <img class="img-fluid"src="images/staff-images/andrew-halls.jpg">
       <p>Name and Role </p>
     </div>
+</div>
 
 
-
-    <div class="staff">
-      <img class="img-fluid"src="images/staff-images/kayleigh-hall-swag.jpg">
-      <p>Name and Role </p>
-    </div>
-
-    <div class="staff">
-      <img class="img-fluid"src="images/staff-images/kayleigh-hall-posh.jpg">
-      <p>Name and Role </p>
-    </div>
   </div>
   </div>
 </div>
