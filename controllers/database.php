@@ -1,3 +1,9 @@
+<!--
+
+  AUTHOR: Manvidas
+
+ -->
+
 <?php
 class Database
 {

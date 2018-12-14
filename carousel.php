@@ -1,3 +1,8 @@
+<!--
+
+  AUTHOR: Jason
+
+ -->
     <link rel='stylesheet' type='text/css' href='css/carousel.css' />
     <div class='carousel'>
       <div class='image-container'>

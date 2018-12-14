@@ -1,3 +1,9 @@
+<!--
+
+  AUTHOR: Jason
+
+ -->
+
 <head>
   <link rel="stylesheet" type="text/css" href="css/latest-news.css">
 </head>

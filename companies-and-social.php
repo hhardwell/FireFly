@@ -2,10 +2,8 @@
 
   EVENT SPONSORING COMPANIES AND SOCIAL MEDIA COMPONENT
 
-
-<?php // TODO: FIXME IMPORTANT Facebook feed under 1100px misaligns elements badly ?>
-
-
+  AUTHOR: Manvidas
+  
  -->
 
 

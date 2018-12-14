@@ -1,3 +1,9 @@
+/*
+
+ AUTHOR: Jason
+
+*/
+
 // create carousel instance with slick plugin
 $('.carousel').slick({
   slidesToShow: 1,
