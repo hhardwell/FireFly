@@ -37,10 +37,18 @@ div p {
   margin-right: auto;
   width: 80vw;
   justify-content: space-between;
-}
+  align-items: stretch;
+  height: 100%;
+  }
 
 .first,
 .second,
 .third {
+  background: url("../images/facebook/facebook-background.png") red;
 
+width: 30%;
+height: 100%;
+}
+
+.card-top {
 }

@@ -31,14 +31,25 @@
 <div class="events">
 <div class="first testimonial-font-size">
   <span>EVENT ONE</span>
+<div class="card-bottom">
+  <p>the information about the event goes here.</p>
+</div>
 </div>
 
 <div class="second testimonial-font-size">
   <span>EVENT ONE</span>
+  <div class="card-bottom">
+    <p>the information about the event goes here.</p>
+  </div>
 </div>
 
 <div class="third testimonial-font-size">
+  <div class="card-top">
   <span>EVENT ONE</span>
+</div>
+  <div class="card-bottom">
+    <p>the information about the event goes here.</p>
+  </div>
 </div>
 </div>
 </div>
