@@ -1,0 +1,46 @@
+/* Styles for the what's on page */
+
+div a {
+  color: inherit;
+  text-decoration: none;
+}
+
+div p {
+  padding: 1rem;
+  color: white;
+  margin: 0;
+}
+
+.page-title {
+  margin: auto;
+  width: 80vw;
+  border-radius: 10px;
+  padding-top: 5rem;
+  }
+
+
+.descriptor {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  border-radius: 10px;
+  height: 85%;
+}
+
+.content-container {
+  height: 20rem;
+}
+
+.events {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  justify-content: space-between;
+}
+
+.first,
+.second,
+.third {
+
+}
