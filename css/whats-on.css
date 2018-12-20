@@ -5,12 +5,6 @@ div a {
   text-decoration: none;
 }
 
-div p {
-  padding: 1rem;
-  color: white;
-  margin: 0;
-}
-
 .page-title {
   margin: auto;
   width: 80vw;
@@ -18,37 +12,134 @@ div p {
   padding-top: 5rem;
   }
 
+.title-container {
+  height: 15rem;
+}
 
 .descriptor {
   margin-left: auto;
   margin-right: auto;
   width: 80vw;
   border-radius: 10px;
-  height: 85%;
+  height: 100%;
+  color: white;
+  font-size: 1.3rem;
 }
 
-.content-container {
-  height: 20rem;
+.intro {
+  padding: 1rem;
 }
 
-.events {
+/* EVENTS SECTION */
+
+.eventCard {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.card-top {
+  background: url("../images/facebook/facebook-background.png") red;
+ height: 50%;
+ border-bottom: 1px solid black;
+}
+
+.card-bottom {
+  padding: 1rem;
+  color: black;
+  font-size: 1.3rem;
+  height: 50%;
+}
+
+.event-container {
   display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 80vw;
   justify-content: space-between;
-  align-items: stretch;
   height: 100%;
-  }
+  margin-bottom: 1rem;
 
-.first,
-.second,
-.third {
-  background: url("../images/facebook/facebook-background.png") red;
-
-width: 30%;
-height: 100%;
 }
 
-.card-top {
+.background-container {
+  height: 23rem;
+  margin-bottom: 2rem;
+}
+
+/* CALENDAR CSS */
+.calendar-section {
+  background-color: #333d47;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding-bottom: 2rem;
+}
+
+
+.clndr-table {
+  width: 30vw;
+  height: 15rem;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.clndr-controls {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.month {
+  display: inline-block;
+  line-height: 2rem;
+  font-size: 1.7rem;
+  padding-top: 2rem;
+  color: white;
+}
+
+.clndr-control-button {
+  display: inline-block;
+}
+
+.clndr-previous-button {
+  margin-right: 1rem;
+  border: solid 1px grey;
+  display: inline-block;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.clndr-next-button {
+  margin-left: 1rem;
+  border: solid 1px grey;
+  display: inline-block;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+
+}
+
+td {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.header-day {
+  font-weight: 600;
+}
+
+.day-contents {
+  color: #ff5000;
+  font-weight: 600;
+  background-color: #333d47;
 }
