@@ -196,6 +196,11 @@ td {
   background-color: #333d47;
 }
 
+.calendar-day-2018-12-31 {
+  transform: scale(1.5);
+  background-color: white;
+  }
+
 /* MEDIA QUERIES */
 
 /* Extra small devices (portrait phones, less than 576px)

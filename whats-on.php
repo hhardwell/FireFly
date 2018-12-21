@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+  
   <link rel="stylesheet" type="text/css" href="css/site.css">
   <link rel="stylesheet" type="text/css" href="css/whats-on.css">
 
@@ -143,11 +144,29 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clndr/1.4.7/clndr.min.js"></script>
 <script>
 
+
+// CALENDAR STUFF
+var thisMonth = moment().format('YYYY-MM');
+    // Events to load into calendar
+    var eventArray = [
+        {
+          date: thisMonth + '-1',
+            title: 'Multi-Day Event'
+          },
+          {
+            date: thisMonth + '-1',
+            title: 'Another Multi-Day Event'
+        },
+        {
+            date: thisMonth + '-27',
+            title: 'Single Day Event'
+        }
+    ];
+
+
 $('#calendar').clndr({
   template: $('#calendar-template').html(),
-  events: [
-    { date: '2018-12-12', title: 'CLNDR GitHub Page Finished', url: 'http://github.com/kylestetz/CLNDR' }
-  ],
+  events: eventArray,
   clickEvents: {
     click: function(target) {
       console.log(target);
@@ -160,6 +179,18 @@ $('#calendar').clndr({
     console.log('this would be a fine place to attach custom event handlers.');
   }
 });
+
+
+// OTHER BITS OF JS
+
+let cthulu = $('day');
+let event3 = $('eventCard3');
+
+if (cthulu.style.backgroundColor == '#333d47') {
+   event3.style.backgroundColor = 'purple';
+}
+
+
 
 </script>
 
