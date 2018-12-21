@@ -10,10 +10,14 @@ div a {
   width: 80vw;
   border-radius: 10px;
   padding-top: 5rem;
-  }
+}
 
 .title-container {
   height: 15rem;
+}
+
+.description-container {
+  height: 20rem;
 }
 
 .descriptor {
@@ -32,23 +36,71 @@ div a {
 
 /* EVENTS SECTION */
 
-.eventCard {
+.box-container {
+  height: 4rem;
+}
+
+.past-events {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.past-events-title {
+  font-size: 2rem;
+}
+
+.eventCard1 {
   width: 30%;
   border: 1px solid black;
   border-radius: 5px;
 }
 
-.card-top {
+.eventCard2 {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.eventCard3 {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.card-top1 {
+  background: url("https://c1.staticflickr.com/9/8351/8285577130_e9fb7cc138_b.jpg") red;
+  height: 50%;
+  border-bottom: 1px solid black;
+}
+
+.card-top2 {
   background: url("../images/facebook/facebook-background.png") red;
- height: 50%;
- border-bottom: 1px solid black;
+  height: 50%;
+  border-bottom: 1px solid black;
+}
+
+.card-top3 {
+  background: url("https://dibujando.net/files/fs/p/c/900x1000/2015/108/elcthulhu_220425.jpg") red;
+  height: 50%;
+  border-bottom: 1px solid black;
 }
 
 .card-bottom {
   padding: 1rem;
   color: black;
   font-size: 1.3rem;
-  height: 50%;
+}
+
+.card-bottom h5,
+.card-bottom h6 {
+  margin: 0;
+}
+
+
+
+.card-bottom p {
+  font-size: 1rem;
 }
 
 .event-container {
@@ -59,11 +111,10 @@ div a {
   justify-content: space-between;
   height: 100%;
   margin-bottom: 1rem;
-
 }
 
 .background-container {
-  height: 23rem;
+  height: 30rem;
   margin-bottom: 2rem;
 }
 
@@ -114,6 +165,7 @@ div a {
   background-color: black;
   color: white;
   border-radius: 10px;
+  display: none;
 }
 
 .clndr-next-button {
@@ -124,7 +176,7 @@ div a {
   background-color: black;
   color: white;
   border-radius: 10px;
-
+  display: none;
 }
 
 td {
@@ -143,3 +195,41 @@ td {
   font-weight: 600;
   background-color: #333d47;
 }
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) {
+
+  .eventCard1 {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .eventCard2 {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .eventCard3 {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+ }
+
+
+/* Extra large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px) { ... }

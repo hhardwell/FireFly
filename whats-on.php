@@ -21,7 +21,7 @@
 
 <!-- Beginning of content -->
 
-<div class="background-container">
+<div class="description-container">
 <div class="description-font background-grey color-grey description-button-font-size descriptor">
   <p class="intro">This is the "What's On" page and features the many exciting events that are coming up. I'm sure you're as thrilled as we are to learn about the FireFly events schedule and you'll obviously be planning your entire year around what we've got on. Or something.</p><p class="intro color-orange">Insert excitment here.</p>
 </div>
@@ -30,32 +30,46 @@
 
 <!-- PAST EVENTS SECTION -->
 
+<div class="box-container">
+<div class="past-events">
+  <h3 class="past-events-title description-font">This Month's Highlights</h3>
+</div>
+</div>
+
 <div class="background-container">
 <div class="event-container">
 
-  <div class="eventCard">
-    <div class="card-top">
-    </div>
-    <div class="card-bottom">
-    <p>the information about the event goes here.</p>
-    </div>
-  </div>
 
-  <div class="eventCard">
-      <div class="card-top">
-      </div>
-      <div class="card-bottom">
-      <p>the information about the event goes here.</p>
-      </div>
-  </div>
 
-  <div class="eventCard">
-      <div class="card-top">
-      </div>
-      <div class="card-bottom">
-      <p>the information about the event goes here.</p>
-      </div>
-      </div>
+<div class="eventCard1">
+<div class="card-top1">
+</div>
+<div class="card-bottom">
+<h6>3rd December</h6>
+<h5>The Biggest Bubble</h5>
+<p>We're set to team up with bubble bath producer Bubble.Org to try and blow the biggest bubble in the world. Will it work? Who cares. </p>
+</div>
+</div>
+
+<div class="eventCard2">
+<div class="card-top2">
+</div>
+<div class="card-bottom">
+<h6>8th December</h6>
+<h5>Flag Burning</h5>
+<p>Pretty self-explanatory. We're going to build a bonfire in the park and burn a bunch of flags. Pyromaniacs and anarchists welcome.</p>
+</div>
+</div>
+
+<div class="eventCard3">
+<div class="card-top3">
+</div>
+<div class="card-bottom">
+<h6>31st December</h6>
+<h5>Waking Cthulu</h5>
+<p>The Cult of Cthulu are meeting up in one of our city's old underground stations to release the ancient one and bring about a thousand years of darkness. BYOB!</p>
+</div>
+</div>
 </div>
 </div>
 
