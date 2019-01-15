@@ -1,0 +1,115 @@
+<!--
+
+  AUTHOR: Jason
+
+  UPDATED BY: Manvidas (15/01/2019) -> conversion to php
+ -->
+<DOCTYPE!=html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"> <!-- Latest version of font awesome -->
+    <link rel="stylesheet" type="text/css" href="css/site.css"> <!-- includes the preset site font sizes, font styles and colours -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="css/our-events.css">
+    <link rel='stylesheet' type='text/css' href='css/carousel.css' />
+  </head>
+  <body>
+    <?php include 'header.php' ?>
+    <div class='events-container'>
+      <div class='outer-margin'>
+        <div class='event-card card-1'>
+          <div class='margin header-img'>
+            <img src='./images/facebook/facebook-background.png' />
+            <div class='event-header'>
+              <div class='title-center'>
+                <div class='title-back title-font'>
+                  <h3>Sheringham Carnival</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='margin event-description description-font'>
+            <p>
+              This year we once again hosted the Sheringham Carnival.
+              Our aim is to promote the town as a holiday destination,
+              to foster our community spirit and to financially assist local
+              charities and local organisations
+            </p>
+          </div>
+        </div>
+
+        <div class='event-card card-2'>
+          <div class='margin header-img'>
+            <img src='https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=20350f2b60dc7d7ac4b5e9526afacf77&auto=format&fit=crop&w=1350&q=80'/>
+            <div class='event-header'>
+              <div class='title-center'>
+                <div class='title-back title-font'>
+                  <h3 class='event-title'>
+                    Title 2
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='margin event-description description-font'>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nam molestie ex vel tempor sagittis. Morbi et felis a felis tempor accumsan at consectetur nulla.
+              Donec vel orci ut nibh congue fringilla. Fusce vel luctus eros.
+              Fusce nec velit ut nunc varius lacinia sit amet id magna.
+            </p>
+          </div>
+        </div>
+
+        <div class='event-card card-3'>
+          <div class='margin header-img'>
+            <img src='https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0a2d43a440904f159f33303eaea9c2e5&auto=format&fit=crop&w=1350&q=80' />
+            <div class='title-center'>
+              <div class='title-back title-font'>
+                <h3>
+                  Title 3
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class='margin event-description description-font'>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nam molestie ex vel tempor sagittis. Morbi et felis a felis tempor accumsan at consectetur nulla.
+              Donec vel orci ut nibh congue fringilla. Fusce vel luctus eros.
+              Fusce nec velit ut nunc varius lacinia sit amet id magna.
+            </p>
+          </div>
+        </div>
+
+        <div class='event-card card-4'>
+          <div class='margin header-img'>
+            <img src='https://images.unsplash.com/photo-1472653816316-3ad6f10a6592?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2e93d999f3b3725d6eb1f1735ca650ee&auto=format&fit=crop&w=1349&q=80' />
+            <div class='event-header'>
+              <div class='title-center'>
+                <div class='title-back title-font'>
+                  <h3 class='event-title'>
+                    Title 4
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='margin event-description description-font'>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nam molestie ex vel tempor sagittis. Morbi et felis a felis tempor accumsan at consectetur nulla.
+              Donec vel orci ut nibh congue fringilla. Fusce vel luctus eros.
+              Fusce nec velit ut nunc varius lacinia sit amet id magna.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <?php include 'footer.php' ?>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
