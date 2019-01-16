@@ -14,6 +14,11 @@
   color: white;
 }
 
+.inner-about-container {
+  max-width: 1140px;
+  display: flex;
+}
+
 /* CSS for about-us-home */
 
 .about-us-home-container{
@@ -24,6 +29,7 @@
   overflow: hidden;
   display: flex;
   position: relative;
+
 }
 
 .about-us-home-container .transparent-logo {
@@ -75,37 +81,58 @@
 }
 
 .testi-logo-home {
-    width: 500px;
-    margin-right: 10px;
+  width: 500px;
+  margin-right: 10px;
 }
 
 /* end for about-us-home */
 
-.staff-container{
-  width: 30%;
-  margin-left: 50px;
-  margin-right: auto;
-  background-color: white;
-  color: black;
-
+.img-fluid {
+  width: 90%;
+  max-width: 400px;
 }
 
+.body-container {
+  flex: 2;
+  margin-right: 15px;
+  align-self: flex-start;
+}
+
+.staff-container {
+  margin-left: 15px;
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 440px;
+  align-self: flex-start;
+}
 
 .staff-image-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .container-flex {
   display: flex;
+  justify-content: center;
 }
 
 .staff {
-  width: 48%;
-  padding: 3;
+  flex: 40%;
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .staff img {
   width: 200px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
   border: solid 1px black;
   border-radius: 5px;
 }
@@ -121,29 +148,34 @@
   .main-container {
 
   }
+
+  .inner-about-container {
+    max-width: 960px;
+    flex-wrap: wrap;
+  }
+
+  .body-container {
+    flex: 100%;
+    margin-right: 0;
+  }
+
   .staff-container {
-    width: 40%;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    height: 650px;
+    flex: 100%;
+    margin-left: 0;
+  }
+
+  .staff-container {
+    min-width: unset;
   }
   .staff {
-    width: auto;
-    padding-right: 18px;
-  }
-  .staff-image-container {
-    display: flex;
-    justify-content: center;
+    flex: 25%;
   }
 
 
   @media (max-width: 991px) {
 
-    .container-flex {
-      display: block;
-
+    .inner-about-container {
+      max-width: 720px;
     }
     .staff-container{
       max-width: 960px!important;
