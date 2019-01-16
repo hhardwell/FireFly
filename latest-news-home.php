@@ -11,7 +11,9 @@
 <body>
   <div class='news-container news-home-container'>
     <div class='inner-news-container'>
-      <h2 class='header-font'>Latest News</h2>
+      <div class="title-container">
+        <h2 class='header-font'>Latest News</h2>
+      </div>
       <div class='card-container'>
         <div class='inner-card-container'>
           <div class='news-card first-card'>

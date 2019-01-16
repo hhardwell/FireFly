@@ -99,6 +99,10 @@ a:hover {
   .inner-card-container {
     max-width: 540px;
   }
+  .title-container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 768px) {
@@ -107,8 +111,17 @@ a:hover {
     text-align: center;
   }
 
+  .inner-news-container h2 {
+    font-size: 2.5rem;
+  }
+
   .inner-card-container {
     max-width: unset;
+  }
+
+  .title-container {
+    max-width: unset;
+    margin: unset;
   }
 
   .first-card::after,
@@ -178,6 +191,10 @@ a:hover {
 @media (min-width: 1200px) {
   .inner-news-container {
     max-width: 1140px;
+  }
+
+  .inner-news-container h2 {
+    text-align: left;
   }
 
   .news-card {

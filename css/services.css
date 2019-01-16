@@ -1,0 +1,81 @@
+.services-container {
+  display: flex;
+  justify-content: center;
+}
+
+.services-container h2 {
+  margin-top: 1.5em;
+}
+
+.inner-services-container {
+  margin: 0 20px;
+  flex:auto;
+}
+
+.diamond-container {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.diamond {
+  flex: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin: 7px 0;
+  border-radius: 8px;
+  height: 200px;
+  font-size: 1.5rem;
+  box-shadow: inset 0 0px 0px 100px rgb(0,0,0,0.3);
+  position: relative;
+}
+
+.diamond i {
+  margin-top: 0.75em
+}
+
+.diamond img {
+  display: none;
+}
+
+.security {
+  background-image: url(https://images.unsplash.com/photo-1526659541029-256e1bf106e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80);
+}
+
+.hosting {
+  background-image: url(https://images.pexels.com/photos/1578317/pexels-photo-1578317.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+}
+
+.catering {
+  background-image: url(https://images.pexels.com/photos/1483858/pexels-photo-1483858.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+}
+
+@media (min-width: 576px) {
+  .inner-services-container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .diamond img{
+    display: unset;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .diamond-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .diamond {
+    background-image: unset;
+  }
+}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}

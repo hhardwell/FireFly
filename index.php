@@ -14,6 +14,7 @@
     <?php include"header.php";?>
     <?php include"carousel.php";?>
     <?php include"about-us-home.php";?>
+    <?php include"services.php";?>
     <?php include"latest-news-home.php";?>
     <?php include"companies-and-social.php";?>
     <?php include"footer.php";?>
