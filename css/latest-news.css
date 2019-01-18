@@ -39,7 +39,7 @@ a:hover {
 }
 
 .news-container h2 {
-  margin: 0.5em 1em;
+  margin: 0.5rem 2rem;
   color: #333d47
 }
 
@@ -177,6 +177,10 @@ a:hover {
     max-width: 960px;
   }
 
+  .inner-news-container h2 {
+    text-align: left;
+  }
+
   .news-card h3 {
     margin: 0 2em;
     margin-bottom: .5em;
@@ -191,10 +195,6 @@ a:hover {
 @media (min-width: 1200px) {
   .inner-news-container {
     max-width: 1140px;
-  }
-
-  .inner-news-container h2 {
-    text-align: left;
   }
 
   .news-card {

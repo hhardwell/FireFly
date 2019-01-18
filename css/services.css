@@ -5,10 +5,12 @@
 
 .services-container h2 {
   margin-top: 1.5em;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .inner-services-container {
-  margin: 0 20px;
+  margin: 0 1rem;
   flex:auto;
 }
 
@@ -62,6 +64,8 @@
   }
 
   .services-container h2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
     font-size: 2.5rem;
     text-align: center;
   }
@@ -100,7 +104,7 @@
   .diamond-container {
     flex-wrap: nowrap;
     margin-top: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
   }
 
   .diamond {
