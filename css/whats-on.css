@@ -1,240 +1,147 @@
 /* Styles for the what's on page */
 
-div a {
-  color: inherit;
+.content-container {
+  width: 80vw;
+  margin: auto;
+}
+
+/* title */
+
+.title {
+  margin: 2rem 0;
+  font-size: 4rem;
+}
+
+.title a {
   text-decoration: none;
 }
 
-.page-title {
-  margin: auto;
-  width: 80vw;
-  border-radius: 10px;
-  padding-top: 5rem;
-}
+/* Opening statement */
 
-.title-container {
-  height: 15rem;
-}
-
-.description-container {
-  height: 20rem;
-}
-
-.descriptor {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80vw;
-  border-radius: 10px;
-  height: 100%;
+.opening-blurb {
   color: white;
-  font-size: 1.3rem;
-}
-
-.intro {
-  padding: 1rem;
-}
-
-/* EVENTS SECTION */
-
-.box-container {
-  height: 4rem;
-}
-
-.past-events {
-  width: 80vw;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.past-events-title {
-  font-size: 2rem;
-}
-
-.eventCard1 {
-  width: 30%;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-.eventCard2 {
-  width: 30%;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-.eventCard3 {
-  width: 30%;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-.card-top1 {
-  background: url("https://c1.staticflickr.com/9/8351/8285577130_e9fb7cc138_b.jpg") red;
-  height: 50%;
-  border-bottom: 1px solid black;
-}
-
-.card-top2 {
-  background: url("../images/facebook/facebook-background.png") red;
-  height: 50%;
-  border-bottom: 1px solid black;
-}
-
-.card-top3 {
-  background: url("https://dibujando.net/files/fs/p/c/900x1000/2015/108/elcthulhu_220425.jpg") red;
-  height: 50%;
-  border-bottom: 1px solid black;
-}
-
-.card-bottom {
-  padding: 1rem;
-  color: black;
-  font-size: 1.3rem;
-}
-
-.card-bottom h5,
-.card-bottom h6 {
-  margin: 0;
-}
-
-
-
-.card-bottom p {
-  font-size: 1rem;
-}
-
-.event-container {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80vw;
-  justify-content: space-between;
-  height: 100%;
-  margin-bottom: 1rem;
-}
-
-.background-container {
-  height: 30rem;
-  margin-bottom: 2rem;
-}
-
-/* CALENDAR CSS */
-.calendar-section {
-  background-color: #333d47;
-  width: 80vw;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-  padding-bottom: 2rem;
-}
-
-
-.clndr-table {
-  width: 30vw;
-  height: 15rem;
-  margin: auto;
   font-size: 1.5rem;
 }
 
-.clndr-controls {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  width: 60vw;
-  margin-left: auto;
-  margin-right: auto;
+.intro {
+  font-size: 1.5rem;
+}
+
+.opening p {
+  margin: 1rem;
+}
+
+.opening {
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+
+/* Month's Highlights */
+
+.highlights {
+  width: 100%;
+  display: flex;
+  border-radius: 5px;
+
+}
+
+.events-title {
+ margin: 2.5rem 0
+}
+
+.highlights button {
+  display: none !important;
+}
+
+.eventCard {
+  display: flex;
+  flex-direction: row;
+}
+
+.slick-list {
+  height: 20rem;
+  border-radius: 5px;
+}
+
+.slick-initialized,
+.slick-slide,
+.slick-current,
+.slick-active {
+  display: flex !important;
+}
+
+.card-top img {
+  height: 20rem;
+}
+
+.card-bottom {
+  padding: 1.5rem;
+  color: white;
+}
+
+/* CALENDAR CSS */
+
+.calendar {
   text-align: center;
-}
-
-.month {
-  display: inline-block;
-  line-height: 2rem;
-  font-size: 1.7rem;
-  padding-top: 2rem;
+  margin: 4rem auto;
   color: white;
+  padding: 4rem;
+  border-radius: 5px;
+  position: relative;
 }
 
-.clndr-control-button {
-  display: inline-block;
+.calendar table {
+margin: auto;
 }
 
-.clndr-previous-button {
-  margin-right: 1rem;
-  border: solid 1px grey;
-  display: inline-block;
-  padding: 1rem;
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-  display: none;
+.calendar table td {
+  padding: 2rem;
+  font-size: 1.4rem;
 }
 
-.clndr-next-button {
-  margin-left: 1rem;
-  border: solid 1px grey;
-  display: inline-block;
-  padding: 1rem;
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-  display: none;
-}
-
-td {
-  text-align: center;
-  padding: 1rem;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
-.header-day {
-  font-weight: 600;
-}
-
-.day-contents {
+.event1,
+.event2,
+.event3 {
+  text-decoration: underline;
   color: #ff5000;
-  font-weight: 600;
-  background-color: #333d47;
 }
 
-.calendar-day-2018-12-31 {
-  transform: scale(1.5);
-  background-color: white;
-  }
+.event1:hover,
+.event2:hover,
+.event3:hover {
+  border: 2px solid #ff5000;
+}
+
+.event1info,
+.event2info,
+.event3info {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  border-style: inset;
+
+  background-color: #333d47;
+  padding: 2rem;
+  border: 2px solid #ff5000;
+}
+
+.event1info {
+  top: 15rem;
+  left: 20rem;
+}
+
+.event2info {
+  top: 20rem;
+  left: 10rem;
+}
+
+.event3info {
+  top: 25rem;
+  left: 25rem;
+}
+
+
+
 
 /* MEDIA QUERIES */
-
-/* Extra small devices (portrait phones, less than 576px)
-   No media query for `xs` since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
-
-/* Medium devices (tablets, 768px and up)  */
-@media (min-width: 768px) {  }
-
-/* Large devices (desktops, 992px and up)  */
-@media (min-width: 992px) {
-
-  .eventCard1 {
-    width: 30%;
-    border: 1px solid black;
-    border-radius: 5px;
-  }
-
-  .eventCard2 {
-    width: 30%;
-    border: 1px solid black;
-    border-radius: 5px;
-  }
-
-  .eventCard3 {
-    width: 30%;
-    border: 1px solid black;
-    border-radius: 5px;
-  }
-
- }
-
-
-/* Extra large devices (large desktops, 1200px and up)  */
-@media (min-width: 1200px) { ... }
