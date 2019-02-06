@@ -1,7 +1,4 @@
 
-
-
-
 .main-container {
   box-shadow: 0px 0px 10px 1px #888888;
   border-radius:20px;
@@ -85,9 +82,14 @@
   margin-right: 10px;
 }
 
+.inner-about-container hr {
+  margin: 2rem 1rem;
+  border-color: rgb(255,255,255,0.2);
+}
+
 /* end for about-us-home */
 
-.img-fluid {
+.inner-about-container .img-fluid {
   width: 90%;
   max-width: 400px;
 }
@@ -172,7 +174,7 @@
   }
 
 
-  @media (max-width: 991px) {
+  @media (max-width: 992px) {
 
     .inner-about-container {
       max-width: 720px;
@@ -185,19 +187,24 @@
     }
     .about-us-home-container {
       width:100%;
+      margin-right: 0;
     }
+
+    .container-flex {
+      flex-wrap: wrap;
+    }
+  }
 
 
 
 /* Media query that converts the about us section into the mobile version */
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
       .staff-images{
         display: none;
       }
       .about-us-home-container {
         box-shadow: none;
         border-radius: 0px;
-        height: 450px;
         margin: 0px;
       }
       .intro-container h1 {
@@ -213,5 +220,13 @@
         padding-right: 0;
         padding-left: 0;
         max-width: 750px;
-
       }
+      .left-content {
+        max-width: 540px;
+        margin: 0 auto;
+      }
+    }
+
+    @media (max-width: 576px) {
+
+    }

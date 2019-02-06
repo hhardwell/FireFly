@@ -3,7 +3,7 @@
   EVENT SPONSORING COMPANIES AND SOCIAL MEDIA COMPONENT
 
   AUTHOR: Manvidas
-  
+
  -->
 
 
@@ -15,12 +15,12 @@
     <!-- Event sponsoring companies -->
     <div class="container sponsoring-companies-wrapper">
       <!-- List for the sponsoring companies -->
-      <ul>
-        <li><img src="images/companies/capital-management.png" alt="Capital Management Logo"/></li>
-        <li><img src="images/companies/vfestival.png" alt="V Festival"/></li>
-        <li><img src="images/companies/festival-republic.png" alt="Festival Republic"/></li>
-        <li><img src="images/companies/summer-camp.png" alt="Summer Camp"/></li>
-      </ul>
+      <div>
+        <img src="images/companies/capital-management.png" alt="Capital Management Logo"/>
+        <img src="images/companies/vfestival.png" alt="V Festival"/>
+        <img src="images/companies/festival-republic.png" alt="Festival Republic"/>
+        <img src="images/companies/summer-camp.png" alt="Summer Camp"/>
+      </div>
     </div>
     <!-- Facebook feed -->
     <div class="container facebook-wrapper">

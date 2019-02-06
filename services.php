@@ -14,11 +14,11 @@
        <div class="diamond-container title-font">
          <div class="diamond catering">
            <div class="inner-diamond">
-             <img src="https://images.pexels.com/photos/1578317/pexels-photo-1578317.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" />
+             <img src="https://images.pexels.com/photos/1483858/pexels-photo-1483858.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" />
              <div class="diamond-content">
-               <i class="fas fa-cloud"></i>
+               <i class="fas fa-utensils"></i>
                <p>
-                 Hosting
+                 Catering
                </p>
              </div>
            </div>
@@ -36,11 +36,11 @@
          </div>
          <div class="diamond hosting">
            <div class="inner-diamond">
-             <img src="https://images.pexels.com/photos/1483858/pexels-photo-1483858.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" />
+             <img src="https://images.pexels.com/photos/1578317/pexels-photo-1578317.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" />
              <div class="diamond-content">
-               <i class="fas fa-utensils"></i>
+               <i class="fas fa-cloud"></i>
                <p>
-                 Catering
+                 Hosting
                </p>
              </div>
            </div>

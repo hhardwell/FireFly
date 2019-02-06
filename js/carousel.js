@@ -24,7 +24,7 @@ $('.carousel').slick({
       }
     },
     {
-      breakpoint: 1100,
+      breakpoint: 1200,
       settings: {
         variableWidth: true,
         arrows: true,
@@ -37,19 +37,15 @@ $('.carousel').slick({
 
 // fade in text content on load
 $('.carousel-content').fadeTo(300,0)
-console.log('loaded again')
 $('.slick-current .carousel-content').fadeTo(300,1)
 
 $('.carousel').on('breakpoint', () => {
   $('.carousel-content').fadeTo(300,0)
-  console.log('loaded again')
   $('.slick-current .carousel-content').fadeTo(300,1)
 })
 
 // fade out old text on slide change and fade in new txt
 $('.carousel').on('beforeChange', (event, slick, currentSlide, nextSlide) => {
-  console.log(`current slide: ${currentSlide}`)
-  console.log(`next slide: ${nextSlide}`)
   if (currentSlide !== nextSlide) {
     $('.slick-slide').each((index, element) => {
       if (parseInt($(element).attr('data-slick-index')) === currentSlide) {

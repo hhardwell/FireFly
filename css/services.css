@@ -60,7 +60,7 @@
 }
 @media (min-width: 768px) {
   .inner-services-container {
-    max-width: 720px;
+    max-width: 690px;
   }
 
   .services-container h2 {
@@ -105,6 +105,9 @@
     flex-wrap: nowrap;
     margin-top: 10%;
     margin-bottom: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
   .diamond {
@@ -130,7 +133,7 @@
 
 @media (min-width: 992px) {
   .inner-services-container {
-    max-width: 960px;
+    max-width: 930px;
   }
 
   .services-container h2 {
@@ -157,7 +160,7 @@
 
 @media (min-width: 1200px) {
   .inner-services-container {
-    max-width: 1140px;
+    max-width: 1110px;
   }
 
   .inner-diamond {

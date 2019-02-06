@@ -11,10 +11,10 @@
   <link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 
-<body>
+<footer>
 
 <div class="footer-background title-font">
-  <nav class=" container navbar navbar-light">
+  <nav class="footer-container container navbar navbar-light">
     <div class="logo-footer">
       <a href="#">
         <img src="images/logo.jpg">
@@ -26,13 +26,13 @@
     <div class="footer-nav">
       <a class="footer-nav-item nav-link" href="/FireFly/">Home </span></a>
       <p class="seperator">|</p>
-      <a class="footer-nav-item nav-link" href="/FireFly/whats-on.php">What's on</a>
+      <a class="footer-nav-item nav-link" href="/FireFly/whats-on.php">What's On</a>
       <p class="seperator">|</p>
-      <a class="footer-nav-item nav-link" href="/FireFly/about-us-page.php">About us</a>
+      <a class="footer-nav-item nav-link" href="/FireFly/about-us-page.php">About Us</a>
       <p class="seperator">|</p>
       <a class="footer-nav-item nav-link" href="/FireFly/our-events.php">Our Events</a>
       <p class="seperator">|</p>
-      <a class="footer-nav-item nav-link" href="/FireFly/contact-us.php">Contact us</a>
+      <a class="footer-nav-item nav-link" href="/FireFly/contact-us.php">Contact Us</a>
     </div>
 
 
@@ -40,4 +40,4 @@
   </div>
 
 
-</body>
+</footer>

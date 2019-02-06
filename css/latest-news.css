@@ -107,7 +107,7 @@ a:hover {
 
 @media (min-width: 768px) {
   .inner-news-container {
-    max-width: 720px;
+    max-width: 690px;
     text-align: center;
   }
 
@@ -140,13 +140,18 @@ a:hover {
 
   .news-card {
     flex: 1 1 30%;
-    margin: 10px;
+    margin: 10px 0;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     background-color: #333d47;
     border-radius: 5px;
     padding: 1em;
     padding-bottom: 1.5em;
+  }
+
+  .first-card {
+    margin-left: 0;
   }
 
   .news-card h3 {
@@ -174,7 +179,7 @@ a:hover {
 
 @media (min-width: 992px) {
   .inner-news-container {
-    max-width: 960px;
+    max-width: 930px;
   }
 
   .inner-news-container h2 {
@@ -194,7 +199,7 @@ a:hover {
 
 @media (min-width: 1200px) {
   .inner-news-container {
-    max-width: 1140px;
+    max-width: 1110px;
   }
 
   .news-card {

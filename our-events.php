@@ -1,18 +1,17 @@
 <!--
 
   AUTHOR: Jason
-
   UPDATED BY: Manvidas (15/01/2019) -> conversion to php
+
  -->
-<DOCTYPE!=html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"> <!-- Latest version of font awesome -->
-    <link rel="stylesheet" type="text/css" href="css/site.css"> <!-- includes the preset site font sizes, font styles and colours -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <link rel="stylesheet" type="text/css" href="css/our-events.css">
     <link rel='stylesheet' type='text/css' href='css/carousel.css' />
+    <link rel="stylesheet" type="text/css" href="css/site.css"> <!-- includes the preset site font sizes, font styles and colours -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"> <!-- Latest version of font awesome -->
   </head>
   <body>
     <?php include 'header.php' ?>

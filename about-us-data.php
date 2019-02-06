@@ -4,11 +4,6 @@
 
  -->
 
-<head>
-  <link rel="stylesheet" type="text/css" href="css/about-us.css">
-</head>
-
-
   <div class="intro-container">
 
     <h1 class="title-font">About Us</h1>

@@ -92,5 +92,21 @@
 /* ------ MEDIA QUERIES ------- */
   @media (max-width: 991px) {
     .testi-container {
-      width: 100%;
+      width: unset;
     }
+  }
+
+  @media (max-width: 768px) {
+    .testi-container {
+      max-width: 540px;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .testi-container {
+      margin: 0 1rem;
+      max-width: unset;
+
+    }
+  }

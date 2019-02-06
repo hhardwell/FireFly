@@ -20,8 +20,9 @@
 {
   display:flex;
   flex:1;
-  padding:0;
-  flex-direction: column;
+  padding:0 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .sponsoring-companies-wrapper,
@@ -39,7 +40,7 @@
 */
 
 /* Add styling to the company list */
-.sponsoring-companies-wrapper ul
+.sponsoring-companies-wrapper div
 {
   display:flex;
   flex:1;
@@ -47,33 +48,20 @@
   flex-direction: row;
   list-style-type: none;
   padding: 0;
-  margin-bottom:40px;
+  margin-top:-20px;
+  margin-left: -20px;
 }
 
 /* Add styling to the company list item */
-.sponsoring-companies-wrapper ul li
+.sponsoring-companies-wrapper img
 {
-  flex-basis:50%;
-  margin-top:20px;
+  flex: 40%;
+  width: 50%;
+  object-fit: contain;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
-/* Remove top margin from the first two companies */
-.sponsoring-companies-wrapper ul li:nth-child(1),
-.sponsoring-companies-wrapper ul li:nth-child(2)
-{
-  margin-top:0;
-}
-
-.sponsoring-companies-wrapper ul li:nth-child(odd){ padding-right:100px; }
-.sponsoring-companies-wrapper ul li:nth-child(even){ padding-left:100px; }
-
-/* Add styling to company images */
-.sponsoring-companies-wrapper ul li img
-{
-  display:block;
-  width:100%;
-  margin:auto;
-}
 
 /*
 TWITTER FEED
@@ -106,14 +94,15 @@ TWITTER FEED
 
 .twitter-wrapper .card .card-body .card-title
 {
-  padding: 20px 40px;
+  padding: 20px 20px;
   overflow:overlay;
 }
 
 .twitter-wrapper .card .card-body ul
 {
   list-style-type: none;
-  padding-right: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -166,7 +155,7 @@ TWITTER FEED
 {
   width:100%;
   box-shadow: 0px 0px 10px 1px #888888;
-  margin: 20px auto;
+  margin: 0 auto;
   border-radius: 20px;
   position: relative;
 }
@@ -199,70 +188,77 @@ TWITTER FEED
   color:white;
 }
 
-@media(min-width:1100px){
-  .sponsoring-companies-wrapper ul
-  {
+.twitter-wrapper,
+.facebook-wrapper
+{
+  margin:20px auto;
+}
+
+@@media (min-width: 576px) {
+
+}
+
+@media(min-width:768px)
+{
+  .facebook-wrapper,
+  .twitter-wrapper {
+    flex: 40%;
+  }
+
+  .facebook-wrapper {
+    margin-right: 20px;
+    align-self: flex-start;
+  }
+
+  .sponsoring-companies-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+
+@media(min-width: 992px) {
+
+  .companies-and-social-wrapper {
+    flex-wrap: nowrap;
+    height: min-content;
+  }
+
+  .companies-and-social-wrapper .container {
+    flex: 1;
+  }
+
+  .sponsoring-companies-wrapper div {
     flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0 20px;
   }
 
-  .sponsoring-companies-wrapper ul li
-  {
-    flex-basis:0;
-    margin-top:20px !important;
-    padding:0 !important;
+  .sponsoring-companies-wrapper div img {
+    width: 100%;
+    object-fit: contain;
+    padding: 0;
+    margin-top: 20px;
   }
 
-  .sponsoring-companies-wrapper ul li:first-of-type
-  {
-    margin-top:0 !important;
-  }
-
-  .sponsoring-companies-wrapper ul li img
-  {
-    max-width: 128px;
-  }
-
-  .facebook-wrapper
-  {
-    margin:20px;
+  .facebook-wrapper {
+    margin-left: 20px;
   }
 }
 
-@media(max-width:768px)
+@media(min-width:1200px)
 {
-  .twitter-wrapper,
-  .facebook-wrapper
-  {
-    width:75%;
-    margin:20px auto;
-  }
 
-  /* Sponsoring companies */
-  .sponsoring-companies-wrapper ul li:nth-child(even)
-  {
+  .sponsoring-companies-wrapper div {
     padding: 0 40px;
-    padding-left:0;
   }
-
-  .sponsoring-companies-wrapper ul li:nth-child(odd)
-  {
-    padding:0 40px;
-    padding-right: 0;
+  .facebook-wrapper {
+    align-self: unset;
   }
-
-  .sponsoring-companies-wrapper ul li img
-  {
-    width:75%;
-  }
-}
-
-@media(min-width:1100px)
-{
 /* companies and feeds */
   .companies-and-social-wrapper
   {
     margin:20px auto;
-    flex-direction:row;
+    padding: 0 15px;
   }
 
   .sponsoring-companies-wrapper
@@ -309,5 +305,32 @@ TWITTER FEED
   .twitter-wrapper .card .card-body ul
   {
     padding: 0 20px;
+  }
+
+  .sponsoring-companies-wrapper ul
+  {
+    flex-direction: column;
+  }
+
+  .sponsoring-companies-wrapper ul li
+  {
+    flex-basis:0;
+    margin-top:0 !important;
+    padding:0 !important;
+  }
+
+  .sponsoring-companies-wrapper ul li:first-of-type
+  {
+    margin-top:0 !important;
+  }
+
+  .sponsoring-companies-wrapper ul li img
+  {
+    max-width: 128px;
+  }
+
+  .facebook-wrapper
+  {
+    margin:20px;
   }
 }
