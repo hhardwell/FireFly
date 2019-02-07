@@ -220,6 +220,14 @@
     .container-flex {
       flex-wrap: wrap;
     }
+
+    .container-format-home {
+      margin-top: 1rem;
+    }
+
+    .testi-button {
+      margin-top: 1rem;
+    }
   }
 
 
