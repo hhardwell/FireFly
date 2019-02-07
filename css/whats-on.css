@@ -6,53 +6,114 @@
 }
 
 /* title */
-
-.title {
-  margin: 2rem 0;
-  font-size: 4rem;
-}
-
-.title a {
-  text-decoration: none;
-}
-
-/* Opening statement */
+@media (min-width: 400px){
 
 .opening-blurb {
-  color: white;
-  font-size: 1.5rem;
-}
+  font-size: 0.8rem;
+    color: white;
 
-.intro {
-  font-size: 1.5rem;
 }
-
-.opening p {
-  margin: 1rem;
+.highlights button {
+  display: none !important;
 }
-
-.opening {
-  padding: 2rem;
+.highlights {
+  display: flex;
   border-radius: 5px;
+  text-align: center;
+  margin: auto;
+
 }
+.events-title {
+ margin: 2.5rem 0
+}
+.card-top img {
+  height: 20rem;
+  width: 100%;
+}
+
+.card-bottom {
+  padding: 1.5rem;
+  color: white;
+  height: 10rem;
+}
+
+.card-bottom p {
+  display: none;
+}
+.events-title {
+  text-align: center;
+}
+.eventCard {
+  width: 100%;
+}
+
+}
+
+
+@media (min-width: 576px) {
+  .title {
+    margin: 2rem 0;
+    font-size: 4rem;
+  }
+
+  .title a {
+    text-decoration: none;
+  }
+
+  /* Opening statement */
+
+  .opening-blurb  {
+    font-size: 1.5rem ;
+  }
+
+  .intro {
+    font-size: 1.5rem;
+  }
+
+  .opening p {
+    margin: 1rem;
+  }
+
+  .opening {
+    padding: 2rem;
+    border-radius: 5px;
+  }
+  .card-bottom p {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+
+
 
 
 /* Month's Highlights */
-
 .highlights {
   width: 100%;
   display: flex;
   border-radius: 5px;
+  text-align: left;
+
 
 }
-
 .events-title {
- margin: 2.5rem 0
+ margin: 2.5rem 0;
+ text-align: left;
 }
 
-.highlights button {
-  display: none !important;
+
+.card-bottom {
+  padding: 1.5rem;
+  color: white;
+  height: 40rem;
 }
+
+
+.card-top img {
+  width: 100%;
+}
+
 
 .eventCard {
   display: flex;
@@ -71,14 +132,7 @@
   display: flex !important;
 }
 
-.card-top img {
-  height: 20rem;
-}
 
-.card-bottom {
-  padding: 1.5rem;
-  color: white;
-}
 
 /* CALENDAR CSS */
 
@@ -141,7 +195,4 @@ margin: auto;
   left: 25rem;
 }
 
-
-
-
-/* MEDIA QUERIES */
+}
