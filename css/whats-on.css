@@ -1,0 +1,198 @@
+/* Styles for the what's on page */
+
+.content-container {
+  width: 80vw;
+  margin: auto;
+}
+
+/* title */
+@media (min-width: 400px){
+
+.opening-blurb {
+  font-size: 0.8rem;
+    color: white;
+
+}
+.highlights button {
+  display: none !important;
+}
+.highlights {
+  display: flex;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+
+}
+.events-title {
+ margin: 2.5rem 0
+}
+.card-top img {
+  height: 20rem;
+  width: 100%;
+}
+
+.card-bottom {
+  padding: 1.5rem;
+  color: white;
+  height: 10rem;
+}
+
+.card-bottom p {
+  display: none;
+}
+.events-title {
+  text-align: center;
+}
+.eventCard {
+  width: 100%;
+}
+
+}
+
+
+@media (min-width: 576px) {
+  .title {
+    margin: 2rem 0;
+    font-size: 4rem;
+  }
+
+  .title a {
+    text-decoration: none;
+  }
+
+  /* Opening statement */
+
+  .opening-blurb  {
+    font-size: 1.5rem ;
+  }
+
+  .intro {
+    font-size: 1.5rem;
+  }
+
+  .opening p {
+    margin: 1rem;
+  }
+
+  .opening {
+    padding: 2rem;
+    border-radius: 5px;
+  }
+  .card-bottom p {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+
+
+
+
+/* Month's Highlights */
+.highlights {
+  width: 100%;
+  display: flex;
+  border-radius: 5px;
+  text-align: left;
+
+
+}
+.events-title {
+ margin: 2.5rem 0;
+ text-align: left;
+}
+
+
+.card-bottom {
+  padding: 1.5rem;
+  color: white;
+  height: 40rem;
+}
+
+
+.card-top img {
+  width: 100%;
+}
+
+
+.eventCard {
+  display: flex;
+  flex-direction: row;
+}
+
+.slick-list {
+  height: 20rem;
+  border-radius: 5px;
+}
+
+.slick-initialized,
+.slick-slide,
+.slick-current,
+.slick-active {
+  display: flex !important;
+}
+
+
+
+/* CALENDAR CSS */
+
+.calendar {
+  text-align: center;
+  margin: 4rem auto;
+  color: white;
+  padding: 4rem;
+  border-radius: 5px;
+  position: relative;
+}
+
+.calendar table {
+margin: auto;
+}
+
+.calendar table td {
+  padding: 2rem;
+  font-size: 1.4rem;
+}
+
+.event1,
+.event2,
+.event3 {
+  text-decoration: underline;
+  color: #ff5000;
+}
+
+.event1:hover,
+.event2:hover,
+.event3:hover {
+  border: 2px solid #ff5000;
+}
+
+.event1info,
+.event2info,
+.event3info {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  border-style: inset;
+
+  background-color: #333d47;
+  padding: 2rem;
+  border: 2px solid #ff5000;
+}
+
+.event1info {
+  top: 15rem;
+  left: 20rem;
+}
+
+.event2info {
+  top: 20rem;
+  left: 10rem;
+}
+
+.event3info {
+  top: 25rem;
+  left: 25rem;
+}
+
+}
