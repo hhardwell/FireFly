@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css/contact-us.css">
 </head>
 
-<body>
+<?php include"header.php";?>
 <!-- THE HEADER -->
 <div class="background-container1">
 <div class="content-container">
@@ -53,4 +53,4 @@
   <img></img>
 </div>
 
-</body>
+<?php include"footer.php";?>

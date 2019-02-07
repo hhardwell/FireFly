@@ -18,12 +18,11 @@
   border-radius:20px;
   position:relative;
   margin-top: 25px;
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
 
   background-color: #333d47;
   color: white;
 }
-
 
 /* FORMAT FOR WHITE SHADED BOX */
 .container-format {
@@ -68,12 +67,20 @@
 
 /* The Quote Text */
 .testi-page-container h4 {
-  margin-left: 90px;
   text-align: center;
+  margin-top: auto;
+
 }
 .testi-page-container h3 {
-    margin-left: 90px;
   text-align: center;
+  margin-bottom: auto;
+}
+
+.testi-page-container .testi-text-holder {
+  height: 100%;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* CSS HOVER TRANSITIONS ON THE LOGOS */

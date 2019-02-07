@@ -10,14 +10,14 @@
 
 </head>
 
-<div class="container container-flex">
+<div class="about-testi-container container container-flex">
 <div class=" main-container about-us-home-container">
 
 
   <div class="left-content">
       <img class="transparent-logo" src="images/logo.jpg">
   <?php include "about-us-data.php" ?>
-  <button class="read-more"> Read More... </button>
+  <a href="/FireFly/about-us-page.php"><button class="read-more"> Read More... </button></a>
 </div>
   <div class="staff-images">
 
@@ -58,7 +58,7 @@
 
   </div>
 
-  <button class="read-more testi-button"> Read More... </button>
+  <a href="/FireFly/testimonials-page.php"><button class="read-more testi-button"> Read More... </button></a>
 
 </div>
 

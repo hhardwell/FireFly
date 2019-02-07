@@ -33,7 +33,23 @@
   font-family:raleway-regular;
 }
 
+a {
+  cursor: pointer;
+}
 
+button {
+  cursor: pointer;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
 /*
   Used for title on image carousel (e.g. Sheringham Carnival)
 */

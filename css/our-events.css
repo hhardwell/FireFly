@@ -21,8 +21,14 @@
   z-index:-4;
 }
 
+.margin {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .event-description {
-  margin: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .event-card {
@@ -73,7 +79,7 @@
   }
 
   .outer-margin {
-    max-width: 720px;
+    max-width: 690px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -102,7 +108,7 @@
 
 @media (min-width: 992px) {
   .outer-margin {
-    max-width: 960px;
+    max-width: 930px;
   }
 
   .event-card {
@@ -113,7 +119,7 @@
 
 @media (min-width: 1200px) {
   .outer-margin {
-    max-width: 1200px;
+    max-width: 1110px;
   }
 
   .events-container .card-1 h3 {

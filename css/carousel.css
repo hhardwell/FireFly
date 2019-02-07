@@ -1,6 +1,10 @@
 .carousel {
   margin: 0 !important;
 }
+
+.carousel a {
+  color: unset;
+}
 /*  Backing image */
 .image-container::after{
   content: '';
