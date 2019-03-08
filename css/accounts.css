@@ -1,7 +1,5 @@
 /*
-
-  STYLING FOR LOGIN/REGISTRATION
-
+ STYLING FOR LOGIN/REGISTRATION
 */
 
 .login-form,
@@ -12,10 +10,6 @@
   width: 300px;
   padding: 0;
   margin: auto;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
 }
 
 .login-form p,
@@ -43,11 +37,42 @@
 }
 
 .login-form button,
-.register-form button
-{
+.register-form button{
   border:none;
   border-radius:5px;
   color:white;
   text-transform: uppercase;
   padding:10px 30px;
+}
+
+/* Henry Code */
+
+.logincontainer{
+	background: linear-gradient(rgba(255, 140, 0, 0.2), rgba(255, 140, 0, 0.2)), url('../images/login-background/event3.jpg') no-repeat center;
+}
+
+.registerCont{
+	background: linear-gradient(rgba(255, 140, 0, 0.2), rgba(255, 140, 0, 0.2)), url('../images/login-background/hero@2x.jpg') no-repeat center;
+}
+
+.logincontainer,
+.registerCont{
+	display: flex;
+	flex: auto;
+	margin: 0;
+	background-size: cover;
+}
+
+.login-form,
+.register-form{
+	background-color: white;
+	padding: 30px 25px;
+	border-radius: 10px;
+	justify-content: center;
+	align-self: center;
+	transform: none;
+}
+
+.login-form p{
+	margin-bottom: 20px;
 }
