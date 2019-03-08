@@ -9,7 +9,7 @@
   flex-direction: column;
   width: 300px;
   padding: 0;
-  margin: auto;
+  margin: 1rem auto;
 }
 
 .login-form p,

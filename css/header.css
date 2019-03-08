@@ -17,11 +17,13 @@ body {
 
 .navbar-nav {
   margin-left: auto;
+  text-align: center;
 }
 
 .nav-item {
   padding-right: 15px!important;
   color: white;
+  margin: auto auto;
 }
 
 .nav-link {
