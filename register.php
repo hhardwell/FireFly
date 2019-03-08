@@ -1,31 +1,25 @@
 <!--
 
   AUTHOR: Manvidas
+  EDITED: Henry
+  CONVERSION: Jason
 
  -->
 <head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jQuery library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"> <!-- Latest version of font awesome -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> <!-- Slick styles -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> <!-- Slick styles -->
-  <link rel="stylesheet" href="css/login.css">
-  <link rel="stylesheet" type="text/css" href="css/site.css"> <!-- includes the preset site font sizes, font styles and colours -->
   <link rel="stylesheet" type="text/css" href="css/accounts.css">
 </head>
-<body>
-  <?php include "header.php"; ?>
-  <form class="register-form" action="controllers/register.php" method="post">
-    <p>Register</p>
-    <input type="text" name="username" placeholder="Username" autocomplete="off"/>
-    <input type="password" name="password" placeholder="Password" autocomplete="off"/>
-    <input type="password" name="confirmPassword" placeholder="Confirm Password" autocomplete="off"/>
-    <input type="text" name="email" placeholder="Email" autocomplete="off"/>
-    <input type="text" name="name" placeholder="name" autocomplete="off"/>
-    <input type="text" name="surname" placeholder="surname" autocomplete="off"/>
-    <button class="background-orange" type="submit" name="Register">Register</button>
-  </form>
-    <?php include "footer.php"; ?>
-</body>
+
+<?php include "header.php"; ?>
+  <div class="registerCont">
+	  	<form class="register-form" action="controllers/register.php" method="post">
+		    <p>Register</p>
+		    <input type="text" name="username" placeholder="Username" autocomplete="off"/>
+		    <input type="password" name="password" placeholder="Password" autocomplete="off"/>
+		    <input type="password" name="confirmPassword" placeholder="Confirm Password" autocomplete="off"/>
+		    <input type="text" name="email" placeholder="Email" autocomplete="off"/>
+		    <input type="text" name="name" placeholder="name" autocomplete="off"/>
+		    <input type="text" name="surname" placeholder="surname" autocomplete="off"/>
+		    <button class="background-orange" type="submit" name="Register">Register</button>
+	  	</form>
+	</div>
+<?php include "footer.php"; ?>
