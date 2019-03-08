@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"> <!-- Latest version of font awesome -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> <!-- Slick styles -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> <!-- Slick styles -->
-
+  <link rel="stylesheet" href="css/login.css">
   <link rel="stylesheet" type="text/css" href="css/site.css"> <!-- includes the preset site font sizes, font styles and colours -->
   <link rel="stylesheet" type="text/css" href="css/accounts.css">
 </head>
@@ -27,7 +27,5 @@
     <input type="text" name="surname" placeholder="surname" autocomplete="off"/>
     <button class="background-orange" type="submit" name="Register">Register</button>
   </form>
-  <div style="position:fixed;bottom:0;width:100%">
     <?php include "footer.php"; ?>
-  </div>
 </body>
