@@ -1,34 +1,105 @@
-.content-container {
-  width: 80vw;
-  margin-left: auto;
-  margin-right: auto;
+@media (min-width: 300px) {
+  .title-container h1 {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 4rem;
+    }
+    .content-container {
+      width: 80vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .exp-container {
+      color: white;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+    .exp-container p {
+      color: white;
+      line-height: 2rem;
+      font-size: 1.1rem;
+    }
+    .form {
+      background-color: #333d47;
+      padding: 3rem;
+      color: white;
+      border-radius: 10px;
+    }
+
+    .finishImg img {
+      width: 100%;
+      border-radius: 5px;
+
+    }
+    .finishImg {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 5px;
+    }
+
+    .background-container {
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+    .border-round {
+      border-radius: 10px;
+    }
 }
 
-.exp-container {
+
+@media (min-width: 576px) {
+
+.exp-container p {
   color: white;
-  padding: 2rem;
-  border-radius: 10px;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
 }
 
 .title-container h1 {
   display: inline-block;
-  height: 50%;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
   margin-right: 1rem;
   font-size: 6rem;
   }
 
-.background-container1,
-.background-container2,
-.background-container3 {
-  height: 15rem;
+.border-round {
+  border-radius: 10px;
+  border: 1px solid grey;
 }
-
-
 .form {
   background-color: #333d47;
   padding: 3rem;
-  border-radius: 10px;
   color: white;
+}
+
+.finishImg img {
+  width: 100%;
+  border-radius: 5px;
+
+}
+.finishImg {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.background-container {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+}
+
+@media (max-width: 630px ) {
+  .title-container h1 {
+  font-size: 4rem;
+  }}
+
+@media (max-width: 436px) {
+  .title-container h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 336px) {
+  .title-container h1 {
+    font-size: 2.5rem;
+  }
 }

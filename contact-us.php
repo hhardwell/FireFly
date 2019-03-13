@@ -8,7 +8,7 @@
 
 <?php include"header.php";?>
 <!-- THE HEADER -->
-<div class="background-container1">
+<div class="background-container">
 <div class="content-container">
 <div class="title-container header-font">
 <h1 class="color-grey">Contact</h1><h1 class="color-orange">Us</h1>
@@ -17,7 +17,7 @@
 </div>
 
 <!-- THE EXPLANATION -->
-<div class="background-container2">
+<div class="background-container">
 <div class="content-container">
 <div class="exp-container description-font background-grey color-grey">
 <p>It is our mission in life to put on events that capture our customers' imagination. We will do our utmost to turn your dream event into a reality, whether that's putting on a great festival or performing the arcane rituals required to summon the dread lord Cthulu. We've got talent, skill and experience. Get in touch with us today to find out more.</p>
@@ -26,8 +26,8 @@
 </div>
 
 <!-- THE CONTACT FORM -->
-<div class="background-container3">
-<div class="content-container background-grey">
+<div class="background-container">
+<div class="content-container background-grey border-round">
 <form class="form">
   <div class="form-group">
     <label for="exampleFormControlInput1">Email address</label>
@@ -49,8 +49,11 @@
 </form>
 </div>
 <!-- THE FINISHING IMAGE -->
+<div class="content-container">
 <div class="finishImg">
-  <img></img>
+<img src="./images/facebook/facebook-background.png" alt="flags">
+</div>
+</div>
 </div>
 
 <?php include"footer.php";?>
