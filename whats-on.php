@@ -62,7 +62,9 @@
 
 
 <!-- Calendar section -->
-
+<div class="altCalendar content-container background-grey description-font">
+  <p class="altText">We organise events at a breakneck pace; this list will get added to over the coming weeks. Our business is making your vision a reality. We are the preferred event service provider for universities, governments and fringe religions, and can call upon a broad reserve of experience. Visit this page again soon for an updated events list, or check our facebook page for the latest and greatest events in your area.</p>
+</div>
 
 <div class="calendar description-font background-grey">
 <table>

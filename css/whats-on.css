@@ -8,11 +8,28 @@
 /* title */
 @media (min-width: 400px){
 
-.opening-blurb {
-  font-size: 0.8rem;
-    color: white;
-
+.title {
+  font-size: 3rem;
+  margin-top: 2rem;
 }
+
+.title a {
+  text-decoration: none;
+}
+
+.opening-blurb {
+  font-size: 1rem;
+    color: white;
+    padding: 1.5rem;
+    line-height: 1.5rem;
+    border-radius: 5px;
+}
+
+.intro {
+  padding: 1.5rem;
+  line-height: 1.5rem;
+}
+
 .highlights button {
   display: none !important;
 }
@@ -46,7 +63,20 @@
 .eventCard {
   width: 100%;
 }
+.calendar {
+  display: none;
+}
 
+.altCalendar {
+  display: block;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+.altText {
+  color: white;
+  padding: 1.5rem;
+  line-height: 1.5rem;
+}
 }
 
 
@@ -81,10 +111,19 @@
   .card-bottom p {
     display: block;
   }
+
+
+
+
+
 }
 
 @media (min-width: 992px) {
 
+
+.altCalendar {
+  display: none;
+}
 
 
 
@@ -137,6 +176,7 @@
 /* CALENDAR CSS */
 
 .calendar {
+  display: block;
   text-align: center;
   margin: 4rem auto;
   color: white;
@@ -159,12 +199,7 @@ margin: auto;
 .event3 {
   text-decoration: underline;
   color: #ff5000;
-}
-
-.event1:hover,
-.event2:hover,
-.event3:hover {
-  border: 2px solid #ff5000;
+  cursor: pointer;
 }
 
 .event1info,
@@ -178,21 +213,22 @@ margin: auto;
   background-color: #333d47;
   padding: 2rem;
   border: 2px solid #ff5000;
+  width: 8rem;
 }
 
 .event1info {
-  top: 15rem;
-  left: 20rem;
+  top: 4rem;
+  left: 15rem;
 }
 
 .event2info {
   top: 20rem;
-  left: 10rem;
+  left: 3rem;
 }
 
 .event3info {
-  top: 25rem;
-  left: 25rem;
+  top: 19rem;
+  left: 21rem;
 }
 
 }
