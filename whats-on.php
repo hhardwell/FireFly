@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="css/whats-on.css">
 </head>
 
-<body>
+<?php include"header.php";?>
 
 <div class="content-container">
   <div class="title header-font">
@@ -117,7 +117,7 @@
 </table>
 </div>
 </div>
-
+<?php include"footer.php";?>
  <!-- END OF CONTENT CONTAINER -->
 
 <!-- JAVASCRIPT -->
@@ -189,5 +189,3 @@ $(".event3").on(
 
 
 </script>
-
-</body>

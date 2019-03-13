@@ -1,10 +1,13 @@
-.nav-background {
-  background-color: #333d47;
+body {
+  overflow-x: hidden;
 }
 
-.header {
-  background: #333d47;
-  display: flex;
+.logo-small{
+  width: 100px;
+}
+
+.nav-background {
+  background-color: #333d47;
 }
 
 .btn {
@@ -12,17 +15,32 @@
   background-color: #333d47;
 }
 
-.btn:hover {
-  color: #ff5000;
-}
-
 .navbar-nav {
-  padding-left: 55px;
-  padding-top: 30px;
+  margin-left: auto;
+  text-align: center;
 }
 
 .nav-item {
-  padding-right: 30px;
+  padding-right: 15px!important;
+  color: white;
+  margin: auto auto;
+}
+
+.nav-link {
+  color: white!important;
+}
+
+.nav-link.active {
+  color: white!important;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #ff5000!important;
+}
+
+.navbar-icon {
+  width: 50px;
 }
 
 .nav li a:hover {

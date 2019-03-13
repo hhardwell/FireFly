@@ -1,0 +1,179 @@
+.services-container {
+  display: flex;
+  justify-content: center;
+}
+
+.services-container h2 {
+  margin-top: 1.5em;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.inner-services-container {
+  margin: 0 1rem;
+  flex:auto;
+}
+
+.diamond-container {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.diamond {
+  flex: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin: 7px 0;
+  border-radius: 8px;
+  height: 200px;
+  font-size: 1.5rem;
+  box-shadow: inset 0 0px 0px 100px rgb(0,0,0,0.3);
+  position: relative;
+}
+
+.diamond i {
+  margin-top: 0.75em
+}
+
+.diamond img {
+  display: none;
+}
+
+.security {
+  background-image: url(https://images.unsplash.com/photo-1526659541029-256e1bf106e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80);
+}
+
+.hosting {
+  background-image: url(https://images.pexels.com/photos/1578317/pexels-photo-1578317.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+}
+
+.catering {
+  background-image: url(https://images.pexels.com/photos/1483858/pexels-photo-1483858.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+}
+
+@media (min-width: 576px) {
+  .inner-services-container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .inner-services-container {
+    max-width: 690px;
+  }
+
+  .services-container h2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .diamond img{
+    display: unset;
+    height: 145%;
+    width: 145%;
+    object-fit: cover;
+    margin: -20%;
+    transform: rotate(-45deg);
+    z-index: -2;
+    position: relative;
+  }
+
+  .inner-diamond::after {
+    content: ' ';
+    position: absolute;
+    background-color: rgb(0,0,0,.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .diamond-content {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    height: 100%;
+    width: 100%;
+    transform: rotate(-45deg);
+  }
+
+  .diamond-container {
+    flex-wrap: nowrap;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .diamond {
+    background-image: unset;
+    box-shadow: unset;
+    overflow: visible;
+    flex: 1;
+  }
+
+  .inner-diamond {
+    overflow: hidden;
+    height: 240px;
+    width: 240px;
+    border-radius: 8px;
+    transform: rotate(45deg);
+    margin: auto;
+  }
+
+  .security {
+    z-index: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .inner-services-container {
+    max-width: 930px;
+  }
+
+  .services-container h2 {
+    text-align: left;
+  }
+
+  .inner-diamond {
+    height: 300px;
+    width: 300px;
+  }
+
+  .diamond-container {
+    margin-bottom: 15%;
+  }
+
+  .security {
+    margin: 0 -120px;
+  }
+
+  .diamond-content {
+    font-size: 1.25em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .inner-services-container {
+    max-width: 1110px;
+  }
+
+  .inner-diamond {
+    height: 360px;
+    width: 360px;
+  }
+
+  .diamond-container {
+    margin-bottom: 20%;
+  }
+
+  .diamond-content {
+    font-size: 1.5em;
+  }
+
+}

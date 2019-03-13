@@ -1,0 +1,278 @@
+
+.main-container {
+  box-shadow: 0px 0px 10px 1px #888888;
+  border-radius:20px;
+  position:relative;
+  padding: 20px 20px 20px 20px;
+  background-color: #333d47;
+  color: white;
+}
+
+.about-us-page-outer {
+  margin: 2rem auto;
+}
+
+.about-testi-container{
+  margin-top: 2rem;
+}
+
+.inner-about-container {
+  max-width: 1140px;
+  display: flex;
+}
+
+.testi-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.testi-button {
+  align-self: flex-start;
+  margin: 0;
+}
+
+.container-format-home {
+  margin-bottom: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+.container-format-home p {
+  margin: auto 0;
+}
+
+.testi-logo-home {
+  margin: auto 0;
+}
+
+/* CSS for about-us-home */
+
+.about-us-home-container{
+  width: 50%;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  margin-right: 2rem;
+}
+
+.about-us-home-container .transparent-logo {
+  position: absolute;
+  opacity: 0.25;
+  height: 400px;
+  bottom: -100;
+  left: -50;
+}
+
+.about-us-home-container .intro-container p {
+  position: relative;
+  height: 290px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.read-more {
+  position: relative;
+  background-color: #ff5000;
+  border:none;
+  border-radius:5px;
+  color:white;
+  text-transform: uppercase;
+  padding:10px 30px;
+}
+
+.staff-images {
+  padding: 0px 40px 0px 40px;
+  z-index: 1;
+}
+
+.staff-images img {
+  height: 150px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.container-format-home {
+  box-shadow: 0px 0px 10px 1px #888888;
+  border-radius:10px;
+  position:relative;
+  padding: 20px 20px 20px 20px;
+  background-color: white!important;
+  color: black!important;
+  display: flex;
+  overflow: hidden;
+
+}
+
+.testi-logo-home {
+  width: 500px;
+  margin-right: 10px;
+}
+
+.inner-about-container hr {
+  margin: 2rem 1rem;
+  border-color: rgb(255,255,255,0.2);
+}
+
+/* end for about-us-home */
+
+.inner-about-container .img-fluid {
+  width: 90%;
+  max-width: 400px;
+}
+
+.body-container {
+  flex: 2;
+  margin-right: 15px;
+  align-self: flex-start;
+}
+
+.staff-container {
+  margin-left: 15px;
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 440px;
+  align-self: flex-start;
+}
+
+.staff-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.staff {
+  flex: 40%;
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.staff img {
+  width: 200px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+.staff p {
+  text-align: center;
+}
+
+
+/* Media Querys that changes the position of the staff container under 1200px and 991px width. */
+@media (max-width: 1200px) {
+
+  .main-container {
+
+  }
+
+  .inner-about-container {
+    max-width: 960px;
+    flex-wrap: wrap;
+  }
+
+  .body-container {
+    flex: 100%;
+    margin-right: 0;
+  }
+
+  .staff-container {
+    flex: 100%;
+    margin-left: 0;
+  }
+
+  .staff-container {
+    min-width: unset;
+  }
+  .staff {
+    flex: 25%;
+  }
+
+
+  @media (max-width: 992px) {
+
+    .inner-about-container {
+      max-width: 720px;
+    }
+    .staff-container{
+      max-width: 960px!important;
+      width: 72%;
+      height: auto;
+      margin-left: auto;
+    }
+    .about-us-home-container {
+      width:100%;
+      margin-right: 0;
+    }
+
+    .container-flex {
+      flex-wrap: wrap;
+    }
+
+    .container-format-home {
+      margin-top: 1rem;
+    }
+
+    .testi-button {
+      margin-top: 1rem;
+    }
+  }
+
+
+
+/* Media query that converts the about us section into the mobile version */
+    @media (max-width: 768px) {
+      .staff-images{
+        display: none;
+      }
+      .about-us-home-container {
+        box-shadow: none;
+        border-radius: 0px;
+        margin: 0px;
+      }
+      .inner-about-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 540px;
+      }
+      .intro-container h1 {
+        position: relative;
+      }
+      .intro-container p {
+        height: 170px;
+        overflow: hidden;
+      }
+      .container-flex {
+        display: block;
+        margin: 0;
+        padding-right: 0;
+        padding-left: 0;
+        max-width: 750px;
+      }
+      .left-content {
+        max-width: 540px;
+        margin: 0 auto;
+      }
+      .staff {
+        flex: 40%;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .inner-about-container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    }
