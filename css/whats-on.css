@@ -6,8 +6,88 @@
 }
 
 /* title */
-@media (min-width: 400px){
 
+/* MEDIA QUERY FOR EVERYTHING ON TINY TINY SCREENS. TINY! TINY! */
+@media (max-width: 399px) {
+  .title {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .title a {
+    text-decoration: none;
+  }
+
+  .opening-blurb {
+    font-size: 1rem;
+      color: white;
+      padding: 1.5rem;
+      line-height: 1.5rem;
+      border-radius: 5px;
+  }
+.intro {
+  padding: 1.5rem;
+    line-height: 1.5rem;
+}
+.events-title {
+  margin: 2rem 0;
+}
+.highlights {
+  display: none!important;
+}
+.calendar {
+  display: none;
+}
+
+.magic-highlight {
+  display: block;
+}
+.mh-1-top img,
+.mh-2-top img,
+.mh-3-top img {
+  width: 100%;
+height: 10rem;
+}
+.mh-1-bottom p,
+.mh-2-bottom p,
+.mh-3-bottom p {
+  color: white;
+  padding: 1.5rem
+}
+.mh-1-bottom h5,
+.mh-2-bottom h5,
+.mh-3-bottom h5 {
+  color: white;
+  padding: 0.8rem 1.5rem;
+}
+
+.mh-1-bottom h4,
+.mh-2-bottom h4,
+.mh-3-bottom h4 {
+  padding-left: 1.5rem;
+}
+
+
+.altCalendar {
+  display: block;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.altText {
+  color: white;
+  padding: 1.5rem;
+  line-height: 1.5rem;
+}
+}
+
+
+
+@media (min-width: 400px){
+.magic-highlight {
+  display: none;
+}
 .title {
   font-size: 3rem;
   margin-top: 2rem;
@@ -71,6 +151,7 @@
   display: block;
   border-radius: 5px;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .altText {
   color: white;
@@ -112,7 +193,9 @@
     display: block;
   }
 
-
+body > div > div.highlights.slick-initialized.slick-slider > div > div > div:nth-child(4) > div.card-bottom.description-font.background-grey > p {
+  
+}
 
 
 

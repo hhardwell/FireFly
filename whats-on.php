@@ -40,7 +40,7 @@
   </div>
   <div class="eventCard">
   <div class="card-top">
-  <img src="./images/facebook/facebook-background.png" alt="bubble">
+  <img src="./images/facebook/facebook-background.png" alt="flags">
   </div>
   <div class="card-bottom description-font background-grey">
   <h5>8th December</h5>
@@ -50,7 +50,7 @@
   </div>
   <div class="eventCard">
   <div class="card-top">
-  <img src="https://dibujando.net/files/fs/p/c/900x1000/2015/108/elcthulhu_220425.jpg" alt="bubble">
+  <img src="https://dibujando.net/files/fs/p/c/900x1000/2015/108/elcthulhu_220425.jpg" alt="cthulu">
   </div>
   <div class="card-bottom description-font background-grey">
   <h5>31st December</h5>
@@ -62,6 +62,40 @@
 
 
 <!-- Calendar section -->
+<!-- MAGIC HIGHLIGHTS, ONLY AT TINY TINY TINY TINY SCREENSIZES -->
+<div class="magic-highlight">
+<div class="magic-card">
+<div class="mh-1-top">
+<img src="https://c1.staticflickr.com/9/8351/8285577130_e9fb7cc138_b.jpg" alt="bubble">
+</div>
+<div class="mh-1-bottom background-grey description-font">
+  <h5>2nd December</h5>
+  <h4 class="color-orange">The Biggest Bubble</h4>
+  <p>We're set to team up with bubble bath producer Bubble.Org to try and blow the biggest bubble in the world. Will it work? Who cares. </p>
+</div>
+</div>
+<div class="magic-card">
+<div class="mh-2-top">
+  <img src="./images/facebook/facebook-background.png" alt="flags">
+</div>
+<div class="mh-2-bottom background-grey description-font">
+  <h5>8th December</h5>
+  <h4 class="color-orange">Flag Burning</h4>
+  <p>Pretty self-explanatory. We're going to build a bonfire in the park and burn a bunch of flags. Pyromaniacs and anarchists welcome.</p>
+</div>
+</div>
+<div class="magic-card">
+<div class="mh-3-top">
+  <img src="https://dibujando.net/files/fs/p/c/900x1000/2015/108/elcthulhu_220425.jpg" alt="cthulu">
+</div>
+<div class="mh-3-bottom background-grey description-font">
+  <h5>31st December</h5>
+  <h4 class="color-orange">Waking Cthulu</h4>
+  <p>The Cult of Cthulu are meeting up in one of our city's old underground stations to release the ancient one, bringing about a thousand years of darkness.</p>
+</div>
+</div>
+</div> <!-- THIS IS THE END OF MAGIC HIGHLIGHTS -->
+
 <div class="altCalendar content-container background-grey description-font">
   <p class="altText">We organise events at a breakneck pace; this list will get added to over the coming weeks. Our business is making your vision a reality. We are the preferred event service provider for universities, governments and fringe religions, and can call upon a broad reserve of experience. Visit this page again soon for an updated events list, or check our facebook page for the latest and greatest events in your area.</p>
 </div>
