@@ -1,6 +1,7 @@
 <!--
 
   AUTHOR: Alexander
+  EDITED: Jason
 
  -->
 
@@ -15,10 +16,11 @@
 
 
   <div class="left-content">
-      <img class="transparent-logo" src="images/logo.jpg">
-  <?php include "about-us-data.php" ?>
-  <a href="/FireFly/about-us-page.php"><button class="read-more"> Read More... </button></a>
-</div>
+    <img class="transparent-logo" src="images/logo.jpg">
+    <h1 class="title-font">About Us</h1>
+    <?php include "about-us-data.php" ?>
+    <a href="/FireFly/about-us-page.php"><button class="read-more"> Read More... </button></a>
+  </div>
   <div class="staff-images">
 
       <img src="images/staff-images/alex-chenery-howes.jpg">

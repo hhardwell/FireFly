@@ -2,6 +2,16 @@
  STYLING FOR LOGIN/REGISTRATION
 */
 
+.login-form p.other-page-link,
+.register-form p.other-page-link {
+  margin: 0;
+  text-transform: unset;
+}
+
+.other-page-link a {
+  color: black;
+}
+
 .login-form,
 .register-form
 {

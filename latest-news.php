@@ -11,7 +11,7 @@
 
   <div class='news-page-container news-container'>
     <div class='inner-news-container'>
-      <h2 class='header-font'>Latest News</h2>
+      <h1 class='header-font page-title color-grey container'>Latest <span class="color-orange">News</span></h1>
       <div class='card-container'>
         <div class='inner-card-container'>
           <div class='news-card first-card' id="news-1">

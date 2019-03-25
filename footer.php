@@ -19,9 +19,10 @@
           <img src="images/logo.jpg">
         </a>
       </div>
-
+      <div class="footer-text">
         <p class="copyright-info">This is some text where all the copyright information will be placed when we can think of something to put here.</p>
-
+        <p class="portal-link"><a href="/Firefly/login.php">Click here for the staff portal</a></p>
+      </div>
       <div class="footer-nav">
         <a class="footer-nav-item nav-link" href="/FireFly/">Home</a>
         <p class="seperator">|</p>

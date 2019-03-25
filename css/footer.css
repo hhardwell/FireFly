@@ -26,10 +26,6 @@
   grid-column: 1;
 }
 
-.copyright-info {
-  grid-column: 2;
-}
-
 .btn {
   color: white;
   background-color: #333d47;
@@ -46,9 +42,18 @@
   text-align: center;
 }
 
-.copyright-info {
+.footer-text {
   color: white;
-  margin: auto 10px;
+  margin: 10px;
+  grid-column: 2;
+}
+
+.copyright-info {
+  margin-top: auto;
+}
+
+.portal-link {
+  margin-bottom: auto;
 }
 
 .seperator {
@@ -100,7 +105,7 @@
     grid-row: 1;
   }
 
-  .copyright-info {
+  .footer-text {
     grid-column: 2;
     grid-row: 1;
   }

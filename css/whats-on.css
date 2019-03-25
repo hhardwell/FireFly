@@ -1,14 +1,9 @@
 /* Styles for the what's on page */
 
-.content-container {
-  width: 80vw;
-  margin: auto;
+.event:hover .eventinfo {
+  display: unset;
 }
 
-/* title */
-
-/* MEDIA QUERY FOR EVERYTHING ON TINY TINY SCREENS. TINY! TINY! */
-@media (max-width: 399px) {
   .title {
     font-size: 3rem;
     margin-top: 2rem;
@@ -26,6 +21,17 @@
       line-height: 1.5rem;
       border-radius: 5px;
   }
+
+  .magic-card {
+    border-radius: 5px;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .magic-card p {
+    margin-bottom: 0;
+  }
 .intro {
   padding: 1.5rem;
     line-height: 1.5rem;
@@ -33,8 +39,8 @@
 .events-title {
   margin: 2rem 0;
 }
-.highlights {
-  display: none!important;
+div.slick-slider {
+  display: none;
 }
 .calendar {
   display: none;
@@ -47,7 +53,8 @@
 .mh-2-top img,
 .mh-3-top img {
   width: 100%;
-height: 10rem;
+object-fit: cover;
+margin-bottom: -5px;
 }
 .mh-1-bottom p,
 .mh-2-bottom p,
@@ -80,9 +87,26 @@ height: 10rem;
   padding: 1.5rem;
   line-height: 1.5rem;
 }
+
+.opening {
+  border-radius: 5px;
 }
 
+.card-top img {
+  object-fit: cover;
+}
 
+.calendar {
+  width: fit-content;
+}
+/* sets carousel to be full width below 992px and allows bootstrap container to handler margins at larger screen sizess*/
+@media (max-width: 992px) {
+  div.highlights {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
 @media (min-width: 400px){
 .magic-highlight {
@@ -113,7 +137,7 @@ height: 10rem;
 .highlights button {
   display: none !important;
 }
-.highlights {
+div.highlights {
   display: flex;
   border-radius: 5px;
   text-align: center;
@@ -153,13 +177,13 @@ height: 10rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
 .altText {
   color: white;
   padding: 1.5rem;
   line-height: 1.5rem;
 }
 }
-
 
 @media (min-width: 576px) {
   .title {
@@ -189,16 +213,10 @@ height: 10rem;
     padding: 2rem;
     border-radius: 5px;
   }
+
   .card-bottom p {
     display: block;
   }
-
-body > div > div.highlights.slick-initialized.slick-slider > div > div > div:nth-child(4) > div.card-bottom.description-font.background-grey > p {
-  
-}
-
-
-
 }
 
 @media (min-width: 992px) {
@@ -277,41 +295,36 @@ margin: auto;
   font-size: 1.4rem;
 }
 
-.event1,
-.event2,
-.event3 {
+.event {
   text-decoration: underline;
   color: #ff5000;
   cursor: pointer;
+  position: relative;
 }
 
-.event1info,
-.event2info,
-.event3info {
+.eventinfo{
   display: none;
   z-index: 10;
   position: absolute;
   border-style: inset;
-
+  font-size: 1rem;
   background-color: #333d47;
-  padding: 2rem;
+  padding: 1rem;
   border: 2px solid #ff5000;
-  width: 8rem;
+  width: 200px;
+  left: calc(50% - 100px);
 }
 
 .event1info {
-  top: 4rem;
-  left: 15rem;
+  top: calc(100%);
 }
 
 .event2info {
-  top: 20rem;
-  left: 3rem;
+  top: calc(100%);
 }
 
 .event3info {
-  top: 19rem;
-  left: 21rem;
+  bottom: calc(100%);
 }
 
 }

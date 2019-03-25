@@ -1,9 +1,17 @@
 /*  */
+.news-page-container h1{
+  text-align: left;
+}
+
 .news-container {
   margin-top: 2rem;
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.news-page-container {
+  margin-top: 0;
 }
 
 .inner-news-container {

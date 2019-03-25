@@ -1,11 +1,10 @@
-@media (min-width: 300px) {
+
   .title-container h1 {
     display: inline-block;
     margin-right: 1rem;
     font-size: 4rem;
     }
     .content-container {
-      width: 80vw;
       margin-left: auto;
       margin-right: auto;
     }
@@ -39,12 +38,10 @@
 
     .background-container {
       margin-bottom: 2rem;
-      margin-top: 2rem;
     }
     .border-round {
       border-radius: 10px;
     }
-}
 
 
 @media (min-width: 576px) {
@@ -84,22 +81,11 @@
 
 .background-container {
   margin-bottom: 2rem;
-  margin-top: 2rem;
 }
 }
 
-@media (max-width: 630px ) {
+@media (max-width: 690px ) {
   .title-container h1 {
   font-size: 4rem;
-  }}
-
-@media (max-width: 436px) {
-  .title-container h1 {
-    font-size: 3rem;
-  }
-}
-@media (max-width: 336px) {
-  .title-container h1 {
-    font-size: 2.5rem;
   }
 }

@@ -1,33 +1,25 @@
 <!DOCTYPE html>
 
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/site.css">
   <link rel="stylesheet" type="text/css" href="css/contact-us.css">
 </head>
 
 <?php include"header.php";?>
 <!-- THE HEADER -->
-<div class="background-container">
-<div class="content-container">
-<div class="title-container header-font">
-<h1 class="color-grey">Contact</h1><h1 class="color-orange">Us</h1>
-</div>
-</div>
-</div>
+<h1 class="container page-title color-grey header-font">Contact <span class="color-orange">Us</span></h1>
 
-<!-- THE EXPLANATION -->
+  <!-- THE EXPLANATION -->
 <div class="background-container">
-<div class="content-container">
-<div class="exp-container description-font background-grey color-grey">
-<p>It is our mission in life to put on events that capture our customers' imagination. We will do our utmost to turn your dream event into a reality, whether that's putting on a great festival or performing the arcane rituals required to summon the dread lord Cthulu. We've got talent, skill and experience. Get in touch with us today to find out more.</p>
-</div>
-</div>
+  <div class="content-container container">
+    <div class="exp-container description-font background-grey color-grey">
+      <p>It is our mission in life to put on events that capture our customers' imagination. We will do our utmost to turn your dream event into a reality, whether that's putting on a great festival or performing the arcane rituals required to summon the dread lord Cthulu. We've got talent, skill and experience. Get in touch with us today to find out more.</p>
+    </div>
+  </div>
 </div>
 
 <!-- THE CONTACT FORM -->
-<div class="background-container">
-<div class="content-container background-grey border-round">
+<div class="background-container container">
+<div class="content-container background-grey border-round ">
 <form class="form">
   <div class="form-group">
     <label for="exampleFormControlInput1">Email address</label>
@@ -47,12 +39,6 @@
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
 </form>
-</div>
-<!-- THE FINISHING IMAGE -->
-<div class="content-container">
-<div class="finishImg">
-<img src="./images/facebook/facebook-background.png" alt="flags">
-</div>
 </div>
 </div>
 

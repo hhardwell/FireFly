@@ -35,6 +35,12 @@
 
 a {
   cursor: pointer;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff5000;
 }
 
 button {
@@ -49,6 +55,11 @@ body {
 
 footer {
   margin-top: auto;
+}
+
+.page-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 /*
   Used for title on image carousel (e.g. Sheringham Carnival)

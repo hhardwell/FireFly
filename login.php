@@ -3,6 +3,7 @@
   AUTHOR: Manvidas
   CONVERSION: Jason
   EDITED: Henry
+
  -->
 
 <head>
@@ -16,7 +17,11 @@
       <input type="text" name="username" placeholder="Username" autocomplete="off"/>
       <input type="password" name="password" placeholder="Password" autocomplete="off"/>
       <button class="background-orange" type="submit" name="Login">login</button>
+      <p class="other-page-link">
+        New? <a href="/FireFly/register.php">register here</a>
+      </p>
     </form>
+
 </div>
 
 <?php include "footer.php"; ?>
