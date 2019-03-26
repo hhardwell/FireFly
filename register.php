@@ -21,7 +21,7 @@
 		    <input type="text" name="surname" placeholder="surname" autocomplete="off"/>
 		    <button class="background-orange" type="submit" name="Register">Register</button>
         <p class="other-page-link">
-          Already have an account? <a href="/FireFly/login.php">log in here</a>
+          Already have an account? <a href="/login.php">log in here</a>
         </p>
 	  	</form>
 	</div>

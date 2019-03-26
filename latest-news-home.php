@@ -24,7 +24,7 @@
               be adopted by countless other festival service providers.
             </p>
             <div>
-              <a href='/FireFly/latest-news.php#news-1' class='read-more news-button'>
+              <a href='/latest-news.php#news-1' class='read-more news-button'>
                 Read More &hellip;
               </a>
             </div>
@@ -37,7 +37,7 @@
               Donec vel orci ut nibh congue fringilla. Fusce vel luctus eros.
             </p>
             <div>
-              <a href='/FireFly/latest-news.php#news-2' class='read-more news-button'>
+              <a href='/latest-news.php#news-2' class='read-more news-button'>
                 Read More &hellip;
               </a>
             </div>
@@ -50,7 +50,7 @@
               Donec vel orci ut nibh congue fringilla. Fusce vel luctus eros.
             </p>
             <div>
-              <a href='/FireFly/latest-news.php#news-3' class='read-more news-button'>
+              <a href='/latest-news.php#news-3' class='read-more news-button'>
                 Read More &hellip;
               </a>
             </div>

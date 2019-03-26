@@ -18,7 +18,7 @@
       <input type="password" name="password" placeholder="Password" autocomplete="off"/>
       <button class="background-orange" type="submit" name="Login">login</button>
       <p class="other-page-link">
-        New? <a href="/FireFly/register.php">register here</a>
+        New? <a href="/register.php">register here</a>
       </p>
     </form>
 

@@ -24,12 +24,12 @@
 <div class="nav-background title-font ">
   <nav class=" container navbar navbar-expand-lg navbar-light">
     <div class="logo d-none d-md-block">
-      <a href="/FireFly">
+      <a href="/">
         <img class="img-fluid" src="images/full-title_orange-white.jpg">
       </a>
     </div>
     <div class="logo logo-small d-block d-md-none">
-      <a href="/FireFly">
+      <a href="/">
         <img class="img-fluid" src="images/logo.jpg">
       </a>
     </div>
@@ -41,11 +41,11 @@
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="/FireFly">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="/FireFly/whats-on.php">What's On</a>
-      <a class="nav-item nav-link" href="/FireFly/about-us-page.php">About Us</a>
-      <a class="nav-item nav-link" href="/FireFly/our-events.php">Our Events</a>
-      <a class="nav-item nav-link" href="/FireFly/contact-us.php">Contact Us</a>
+      <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="/whats-on.php">What's On</a>
+      <a class="nav-item nav-link" href="/about-us-page.php">About Us</a>
+      <a class="nav-item nav-link" href="/our-events.php">Our Events</a>
+      <a class="nav-item nav-link" href="/contact-us.php">Contact Us</a>
     </div>
   </div>
 

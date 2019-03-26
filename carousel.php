@@ -11,7 +11,7 @@
         <div class='carousel-content'>
           <div class='carousel-header title-font'>
             <div class='carousel-header-back'>
-              <a href="/FireFly/our-events.php"><h2>Events</h2></a>
+              <a href="/our-events.php"><h2>Events</h2></a>
             </div>
           </div>
           <div class='carousel-body'>
@@ -35,7 +35,7 @@
         <div class='carousel-content'>
           <div class='carousel-header title-font'>
             <div class='carousel-header-back'>
-              <a href="/FireFly/our-events.php"><h2>Events</h2></a>
+              <a href="/our-events.php"><h2>Events</h2></a>
             </div>
           </div>
           <div class='carousel-body'>
@@ -58,7 +58,7 @@
         <div class='carousel-content'>
           <div class='carousel-header title-font'>
             <div class='carousel-header-back'>
-              <a href="/FireFly/our-events.php"><h2>Events</h2></a>
+              <a href="/our-events.php"><h2>Events</h2></a>
             </div>
           </div>
           <div class='carousel-body'>
@@ -81,7 +81,7 @@
         <div class='carousel-content'>
           <div class='carousel-header title-font'>
             <div class='carousel-header-back'>
-              <a href="/FireFly/our-events.php"><h2>Events</h2></a>
+              <a href="/our-events.php"><h2>Events</h2></a>
             </div>
           </div>
           <div class='carousel-body'>

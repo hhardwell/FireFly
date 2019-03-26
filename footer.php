@@ -21,18 +21,18 @@
       </div>
       <div class="footer-text">
         <p class="copyright-info">This is some text where all the copyright information will be placed when we can think of something to put here.</p>
-        <p class="portal-link"><a href="/Firefly/login.php">Click here for the staff portal</a></p>
+        <p class="portal-link"><a href="/login.php">Click here for the staff portal</a></p>
       </div>
       <div class="footer-nav">
-        <a class="footer-nav-item nav-link" href="/FireFly/">Home</a>
+        <a class="footer-nav-item nav-link" href="/">Home</a>
         <p class="seperator">|</p>
-        <a class="footer-nav-item nav-link" href="/FireFly/whats-on.php">What's On</a>
+        <a class="footer-nav-item nav-link" href="/whats-on.php">What's On</a>
         <p class="seperator">|</p>
-        <a class="footer-nav-item nav-link" href="/FireFly/about-us-page.php">About Us</a>
+        <a class="footer-nav-item nav-link" href="/about-us-page.php">About Us</a>
         <p class="seperator">|</p>
-        <a class="footer-nav-item nav-link" href="/FireFly/our-events.php">Our Events</a>
+        <a class="footer-nav-item nav-link" href="/our-events.php">Our Events</a>
         <p class="seperator">|</p>
-        <a class="footer-nav-item nav-link" href="/FireFly/contact-us.php">Contact Us</a>
+        <a class="footer-nav-item nav-link" href="/contact-us.php">Contact Us</a>
       </div>
     </nav>
   </div>
