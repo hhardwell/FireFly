@@ -60,7 +60,7 @@
 
   </div>
 
-  <a href="/FireFly/testimonials-page.php"><button class="read-more testi-button"> Read More... </button></a>
+  <a href="/testimonials-page.php"><button class="read-more testi-button"> Read More... </button></a>
 
 </div>
 
