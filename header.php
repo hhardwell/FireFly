@@ -17,6 +17,8 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> <!-- Slick styles -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> <!-- Slick styles -->
   <link rel="stylesheet" type="text/css" href="css/site.css"> <!-- includes the preset site font sizes, font styles and colours -->
+  <link rel="stylesheet" type="text/css" href="css/contact-us.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 <header>
