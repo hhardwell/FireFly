@@ -58,14 +58,7 @@ li {
     margin: 1.25rem;
   }
 
-  /* a .fa-facebook:hover {
-    color: #3b5998;
-  }
-
-  a .fa-instagram:hover {
-    color: #833ab4;
-  } */
-
+  
   .logo-footer {
     display: flex;
     flex-direction: row;
