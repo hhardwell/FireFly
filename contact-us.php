@@ -9,7 +9,6 @@
     <div class="col-lg-10 mx-auto">
     <p class="contact-info">It is our mission in life to put on events that capture our customers' imagination. We will do our utmost to turn your dream event into a reality, whether that's putting on a great festival or performing the arcane rituals required to summon the dread lord Cthulu. We've got talent, skill and experience. Get in touch with us today to find out more.</p>
 
-    <h6>testing commits</h6>
     </div>
   </div>
 </div>
