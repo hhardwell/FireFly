@@ -1,36 +1,36 @@
 /*FONT FACE*/
 @font-face {
-   font-family: raleway-boldItalic;
-   src: url("../fonts/Raleway-BoldItalic.ttf") format('truetype');
+  font-family: raleway-boldItalic;
+  src: url("../fonts/Raleway-BoldItalic.ttf") format("truetype");
 }
 @font-face {
-   font-family: raleway-light;
-   src: url("../fonts/Raleway-Light.ttf") format('truetype');
+  font-family: raleway-light;
+  src: url("../fonts/Raleway-Light.ttf") format("truetype");
 }
 @font-face {
-   font-family: raleway-regular;
-   src: url("../fonts/Raleway-Regular.ttf") format('truetype');
+  font-family: raleway-regular;
+  src: url("../fonts/Raleway-Regular.ttf") format("truetype");
 }
 
 /*
   header-font used for headings such as "Sheringham Carnival" and "Services"
 */
-.header-font{
-  font-family:raleway-boldItalic;
+.header-font {
+  font-family: raleway-boldItalic;
 }
 
 /*
   title-font used for Services titles ("Security", "Hosting"... etc).
 */
-.title-font{
-  font-family:raleway-light;
+.title-font {
+  font-family: raleway-light;
 }
 
 /*
   description-font used for other text if not under header/title category
 */
-.description-font{
-  font-family:raleway-regular;
+.description-font {
+  font-family: raleway-regular;
 }
 
 a {
@@ -40,7 +40,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #ff5000;
+  color: yello;
 }
 
 button {
@@ -53,10 +53,6 @@ body {
   flex-direction: column;
 }
 
-footer {
-  margin-top: auto;
-}
-
 .page-title {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -64,87 +60,90 @@ footer {
 /*
   Used for title on image carousel (e.g. Sheringham Carnival)
 */
-.image-header-font-size{font-size:45.83pt;}
+.image-header-font-size {
+  font-size: 45.83pt;
+}
 
 /*
   Used for title before cards (e.g. Services, Latest News)
 */
-.card-font-size{font-size:60pt;}
+.card-font-size {
+  font-size: 60pt;
+}
 
 /*
   Used for titles on cards (e.g. Security, Hosting)
 */
-.title-font-size{font-size:37.5pt;}
+.title-font-size {
+  font-size: 37.5pt;
+}
 
 /*
   Used for important titles (e.g. Events)
 */
-.important-font-size{font-size:33.58pt;}
+.important-font-size {
+  font-size: 33.58pt;
+}
 
 /*
   Used for titles before description (e.g. About Us, Helm Project)
 */
-.about-helm-title-font-size{font-size:48pt;}
+.about-helm-title-font-size {
+  font-size: 48pt;
+}
 
 /*
   Used for buttons and description
 */
-.description-button-font-size{font-size:25pt;}
+.description-button-font-size {
+  font-size: 25pt;
+}
 
 /*
   Used for testimonial quotes
 */
-.testimonial-font-size{font-size:20pt;}
-
-/*
-  Used for footer
-*/
-.footer-font-size{font-size:16pt;}
-
-/*
-  Used for footer navigation
-*/
-.footer-navigation-font-size{font-size:14pt;}
-
+.testimonial-font-size {
+  font-size: 20pt;
+}
 
 /*
   Grey backing color
 */
-.background-grey{
-  background-color:#333d47; /*rgb(51,61,71) */
+.background-grey {
+  background-color: #333d47; /*rgb(51,61,71) */
 }
 
 /*
   Orange backing color
 */
-.background-orange{
-  background-color:#ff5000;
+.background-orange {
+  background-color: #ff5000;
 }
 
 /*
   Red backing color
 */
-.background-red{
-  background-color:#ff1500;
+.background-red {
+  background-color: #ff1500;
 }
 
 /*
   Grey text color
 */
-.color-grey{
-  color:#333d47;
+.color-grey {
+  color: #333d47;
 }
 
 /*
   Orange text color
 */
-.color-orange{
-  color:#ff5000;
+.color-orange {
+  color: #ff5000;
 }
 
 /*
   Red text color
 */
-.color-red{
-  color:#ff1500;
+.color-red {
+  color: #ff1500;
 }
