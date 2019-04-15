@@ -46,7 +46,7 @@
               Fusce nec velit ut nunc varius lacinia sit amet id magna.
             </p>
             <p class='carousel-footer header-font'>
-              Title 2
+              Sunrise Festival
             </p>
           </div>
         </div>
@@ -63,13 +63,11 @@
           </div>
           <div class='carousel-body'>
             <p class='carousel-paragraph description-font'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nam molestie ex vel tempor sagittis. Morbi et felis a felis tempor accumsan at consectetur nulla.
-              Donec vel orci ut nibh congue fringilla. Fusce vel luctus eros.
-              Fusce nec velit ut nunc varius lacinia sit amet id magna.
+              We assisted the radion station in sorting the venue for the once in a life-time festival in Norwich.
+              With help from the local community and businesses, radion Uno's Small Weekend had a plethora of activities food stalls and the best environment, the Universtiy of West Angles.
             </p>
             <p class='carousel-footer header-font'>
-              Title 3
+              Radio Uno's Small Weekend
             </p>
           </div>
         </div>
@@ -92,7 +90,7 @@
               Fusce nec velit ut nunc varius lacinia sit amet id magna.
             </p>
             <p class='carousel-footer header-font'>
-              Title 4
+              Outdoor cinema club
             </p>
           </div>
         </div>

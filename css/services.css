@@ -24,34 +24,133 @@
   flex: 100%;
   background-position: center;
   background-size: cover;
-  text-align: center;
   margin: 7px 0;
   border-radius: 8px;
   height: 200px;
-  font-size: 1.5rem;
   box-shadow: inset 0 0px 0px 100px rgb(0,0,0,0.3);
   position: relative;
 }
 
+.diamond h1{
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 30px;
+}
+
 .diamond i {
-  margin-top: 0.75em
+  align-self: center;
+  position: absolute;
+  left: 47%;
 }
 
 .diamond img {
   display: none;
 }
 
-.security {
-  background-image: url(https://images.unsplash.com/photo-1526659541029-256e1bf106e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80);
+
+/* HOVER GROW */
+
+.catering,
+.security,
+.hosting{
+  transition: .3s ease-in-out;
 }
 
-.hosting {
-  background-image: url(https://images.pexels.com/photos/1578317/pexels-photo-1578317.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+.catering:hover,
+.security:hover,
+.hosting:hover {
+  transform: scale(1.1);
 }
 
-.catering {
-  background-image: url(https://images.pexels.com/photos/1483858/pexels-photo-1483858.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+
+/* Catering Service */
+
+.catering:hover .inner-diamond img{
+  filter: brightness(0.6);
 }
+
+.text-cont-catering {
+  position: absolute;
+  font-size: 1.5rem;
+  padding-top: 30px;
+  padding-left: 25px;
+  width: 270px;
+  text-align: 0;
+  top: 85px;
+}
+
+.catering:hover i {
+  color: #35ED35;
+}
+
+.catering-text{
+  display: none;
+}
+
+.catering:hover .catering-text{
+  display: block;
+}
+
+
+/* Security Service */
+
+.security:hover .inner-diamond img{
+  filter: brightness(0.6);
+}
+
+.security:hover i {
+  color: #FE7575;
+}
+
+.text-cont-security {
+  position: absolute;
+  font-size: 1.5rem;
+  padding-top: 30px;
+  text-align: center;
+  padding-left: 60px;
+  width: 300px;
+  text-align: 0;
+  top: 85px;  
+}
+
+.security-text{
+  display: none;
+}
+
+.security:hover .security-text{
+  display: block;
+}
+
+/* HOSTING SERVICE */
+
+.text-cont-hosting {
+  position: absolute;
+  font-size: 1.5rem;
+  padding-top: 30px;
+  padding-right: 15px;
+  top: 85px;
+  right: 10px;
+  text-align: right;
+  width: 250px;
+}
+
+.hosting:hover i {
+  color: #1ED2FE;
+}
+
+.hosting:hover .inner-diamond img{
+  filter: brightness(0.6);
+}
+
+.hosting-text{
+  display: none;
+}
+
+.hosting:hover .hosting-text{
+  display: block;
+}
+
+
 
 @media (min-width: 576px) {
   .inner-services-container {
